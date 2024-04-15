@@ -1,0 +1,68 @@
+Adopt AFRM mut_strategy!
+delete layer_name:encoded.9
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+1 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:encoded.11
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+2 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:encoded.7
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+3 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:encoded.1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+4 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:encoded.5
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+5 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:encoded.17
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+6 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:encoded.13
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+7 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:encoded.3
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+8 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:encoded.15
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+9 generation!
+
+Adopt AFRM mut_strategy!
+No suitable ops for AFRM mutation!
+mut_result:No suitable ops for AFRM mutation!
+10 generation!
+

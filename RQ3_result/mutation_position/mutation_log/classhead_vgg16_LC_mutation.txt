@@ -1,0 +1,220 @@
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.1 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 4096) out_shape: (2, 4096)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+1 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: (2, 4096) out_shape: (2, 4096)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Dropout<keep_prob=1.0>
+mut_result:True
+2 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.4 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 4096) out_shape: (2, 4096)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+3 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: (2, 4096) out_shape: (2, 4096)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Dropout<keep_prob=1.0>
+mut_result:True
+4 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.basic.Dense'> in_shape: (2, 4096) out_shape: (2, 4096)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Dense<input_channels=4096, output_channels=4096, has_bias=True>
+mut_result:True
+5 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+6 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+7 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+8 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+9 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+10 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+11 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+12 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+13 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+14 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+15 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+16 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+17 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+18 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+19 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+20 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+21 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+22 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+23 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+24 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+25 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+26 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+27 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+28 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+29 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+30 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+31 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+32 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+33 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+34 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+35 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+36 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+37 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+38 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+39 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+40 generation!
+

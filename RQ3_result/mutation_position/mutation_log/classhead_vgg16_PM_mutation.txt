@@ -1,0 +1,221 @@
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+1 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+2 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators kernel_size!
+mut_result:Parameter Miss
+3 generation!
+
+Adopt PM mut_strategy!
+candidate_in_mutlayers_indice:-1
+select op: classifier.2 layer_type: Dropout selected param:keep_prob input_shape:[2, 4096] output_shape:[2, 4096]
+Edit value: 1.0 new_inshape: (2, 4096) new_outshape: (2, 4096)
+Dropout<keep_prob=1.0>
+mut_result:True
+4 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators stride!
+mut_result:Parameter Miss
+5 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators kernel_size!
+mut_result:Parameter Miss
+6 generation!
+
+Adopt PM mut_strategy!
+candidate_in_mutlayers_indice:-1
+select op: classifier.5 layer_type: Dropout selected param:keep_prob input_shape:[2, 4096] output_shape:[2, 4096]
+Edit value: 0.75 new_inshape: (2, 4096) new_outshape: (2, 4096)
+Dropout<keep_prob=0.75>
+mut_result:True
+7 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators stride!
+mut_result:Parameter Miss
+8 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators kernel_size!
+mut_result:Parameter Miss
+9 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+10 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+11 generation!
+
+Adopt PM mut_strategy!
+candidate_in_mutlayers_indice:-1
+select op: classifier.5 layer_type: Dropout selected param:keep_prob input_shape:[2, 4096] output_shape:[2, 4096]
+Edit value: 0.84375 new_inshape: (2, 4096) new_outshape: (2, 4096)
+Dropout<keep_prob=0.84375>
+mut_result:True
+12 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators eps!
+mut_result:Parameter Miss
+13 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators eps!
+mut_result:Parameter Miss
+14 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+15 generation!
+
+Adopt PM mut_strategy!
+candidate_in_mutlayers_indice:-1
+select op: classifier.5 layer_type: Dropout selected param:keep_prob input_shape:[2, 4096] output_shape:[2, 4096]
+Edit value: 0.8009033203125 new_inshape: (2, 4096) new_outshape: (2, 4096)
+Dropout<keep_prob=0.8009033203125>
+mut_result:True
+16 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators stride!
+mut_result:Parameter Miss
+17 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators stride!
+mut_result:Parameter Miss
+18 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators eps!
+mut_result:Parameter Miss
+19 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators eps!
+mut_result:Parameter Miss
+20 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators stride!
+mut_result:Parameter Miss
+21 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators eps!
+mut_result:Parameter Miss
+22 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators stride!
+mut_result:Parameter Miss
+23 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators stride!
+mut_result:Parameter Miss
+24 generation!
+
+Adopt PM mut_strategy!
+candidate_in_mutlayers_indice:-1
+select op: classifier.5 layer_type: Dropout selected param:keep_prob input_shape:[2, 4096] output_shape:[2, 4096]
+Edit value: 0.9010162353515625 new_inshape: (2, 4096) new_outshape: (2, 4096)
+Dropout<keep_prob=0.9010162353515625>
+mut_result:True
+25 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators stride!
+mut_result:Parameter Miss
+26 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+27 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+28 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+29 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators kernel_size!
+mut_result:Parameter Miss
+30 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators eps!
+mut_result:Parameter Miss
+31 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators stride!
+mut_result:Parameter Miss
+32 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators eps!
+mut_result:Parameter Miss
+33 generation!
+
+Adopt PM mut_strategy!
+candidate_in_mutlayers_indice:-1
+select op: classifier.2 layer_type: Dropout selected param:keep_prob input_shape:[2, 4096] output_shape:[2, 4096]
+Edit value: 0.25 new_inshape: (2, 4096) new_outshape: (2, 4096)
+Dropout<keep_prob=0.25>
+mut_result:True
+34 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+35 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators kernel_size!
+mut_result:Parameter Miss
+36 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+37 generation!
+
+Adopt PM mut_strategy!
+candidate_in_mutlayers_indice:-1
+select op: classifier.2 layer_type: Dropout selected param:keep_prob input_shape:[2, 4096] output_shape:[2, 4096]
+Edit value: 1.0 new_inshape: (2, 4096) new_outshape: (2, 4096)
+Dropout<keep_prob=1.0>
+mut_result:True
+38 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+39 generation!
+
+Adopt PM mut_strategy!
+The target model do not have the mutator operators momentum!
+mut_result:Parameter Miss
+40 generation!
+

@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LC,base.vgg_base.layers.11,True
+LC,stage_5.conv6_L2,True
+LC,stage_4.conv3_L2,True
+LC,stage_5.conv4_L1,True
+LC,base.vgg_base.layers.15,True
+LC,stage_6.relu,True
+LC,stage_2.relu,True
+LC,stage_5.conv5_L2,True
+LC,stage_6.conv6_L1,True
+LC,stage_3.conv5_L2,True
+LC,stage_4.conv6_L2,True
+LC,stage_3.conv4_L1,True
+LC,stage_2.conv3_L1,True
+LC,stage_1.conv3_CPM_L1,True
+LC,stage_3.conv2_L2,True
+LC,base.vgg_base.layers.16,True
+LC,stage_6.conv4_L2,True
+LC,stage_5.conv2_L1,True
+LC,stage_3.relu,True
+LC,stage_6.conv2_L1,True
+LC,base.vgg_base.layers.6,True
+LC,stage_4.conv4_L2,True
+LC,base.vgg_base.layers.17,True
+LC,stage_3.conv3_L1,True
+LC,stage_2.conv3_L2,True
+LC,base.vgg_base.layers.20,True
+LC,stage_3.conv5_L1,True
+LC,stage_1.conv2_CPM_L1,True
+LC,base.vgg_base.layers.3,True
+LC,stage_2.conv2_L2,True
+LC,stage_5.relu,True
+LC,base.vgg_base.layers.22,True
+LC,stage_5.conv3_L2,True
+LC,stage_5.conv6_L1,True
+LC,stage_3.conv3_L2,True
+LC,stage_6.conv4_L1,True
+LC,base.vgg_base.layers.14,True
+LC,no,LC set layers failure
+LC,stage_4.conv4_L1,True
+LC,base.vgg_base.layers.21,True
+LC,stage_6.conv2_L2,True
+LC,stage_6.conv5_L1,True
+LC,no,LC set layers failure
+LC,stage_4.conv2_L1,True
+LC,stage_2.conv5_L2,True
+LC,stage_6.conv6_L2,True
+LC,stage_6.conv3_L1,True
+LC,stage_3.conv6_L2,True
+LC,stage_1.conv1_CPM_L2,True
+LC,base.relu,True
+LC,stage_5.conv5_L1,True
+LC,stage_6.conv3_L2,True
+LC,stage_6.conv5_L2,True
+LC,base.vgg_base.layers.1,True
+LC,stage_2.conv4_L2,True
+LC,stage_3.conv4_L2,True
+LC,stage_5.conv2_L2,True
+LC,stage_4.relu,True
+LC,no,LC set layers failure
+LC,stage_1.conv3_CPM_L2,True
+LC,no,LC set layers failure
+LC,stage_4.conv5_L2,True
+LC,base.vgg_base.layers.13,True
+LC,stage_1.conv1_CPM_L1,True
+LC,stage_5.conv4_L2,True
+LC,no,LC set layers failure
+LC,stage_4.conv2_L2,True
+LC,stage_4.conv6_L1,True
+LC,stage_1.conv2_CPM_L2,True
+LC,base.vgg_base.layers.8,True
+LC,stage_4.conv5_L1,True
+LC,stage_3.conv6_L1,True
+LC,stage_2.conv4_L1,True
+LC,base.vgg_base.layers.7,True
+LC,no,LC set layers failure
+LC,stage_5.conv3_L1,True
+LC,stage_1.relu,True
+LC,no,LC set layers failure
+LC,stage_2.conv6_L2,True
+LC,stage_3.conv2_L1,True
+LC,stage_4.conv3_L1,True
+LC,stage_2.conv2_L1,True
+LC,base.vgg_base.layers.12,True
+LC,stage_2.conv5_L1,True
+LC,stage_2.conv6_L1,True
+LC,no,LC set layers failure
+LC,no,LC set layers failure
+LC,no,LC set layers failure
+LC,no,LC set layers failure
+LC,no,LC set layers failure
+LC,no,LC set layers failure
+LC,no,LC set layers failure
+LC,no,LC set layers failure
+LC,no,LC set layers failure
+LC,no,LC set layers failure
+LC,no,LC set layers failure
+LC,no,LC set layers failure
+LC,no,LC No suitable ops for
+LC,no,LC set layers failure
+LC,no,LC set layers failure

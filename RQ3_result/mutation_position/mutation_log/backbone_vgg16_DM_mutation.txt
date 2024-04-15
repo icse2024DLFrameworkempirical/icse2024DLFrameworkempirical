@@ -1,0 +1,280 @@
+Adopt DM mut_strategy!
+select layer: flatten layer_type: <class 'mindspore.nn.layer.basic.Flatten'> in_shape: [2, 512, 7, 7] out_shape: [2, 25088]
+mut Basic type: True
+mutate_input_shape: [2, 6, 1, 3, 3, 5]
+mut_result:True
+1 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.basic.Dense'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 7, 4096]
+mut_result:True
+2 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 191, 180]
+mut_result:True
+3 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.0 layer_type: <class 'mindspore.nn.layer.basic.Dense'> in_shape: [2, 25088] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 5, 25088]
+mut_result:True
+4 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 192, 186]
+mut_result:True
+5 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 33, 25, 39]
+mut_result:True
+6 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 201, 126]
+mut_result:True
+7 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 25, 28, 48]
+mut_result:True
+8 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 31, 26, 30]
+mut_result:True
+9 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 29, 30, 43]
+mut_result:True
+10 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.0 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 25088] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 65, 42, 47]
+mut_result:True
+11 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 31, 20, 41]
+mut_result:True
+12 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.1 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 133, 175]
+mut_result:True
+13 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 113, 195]
+mut_result:True
+14 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.0 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 25088] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 395, 609]
+mut_result:True
+15 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.0 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 25088] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 47, 75, 41]
+mut_result:True
+16 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 213, 115]
+mut_result:True
+17 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.0 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 25088] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 74, 48, 47]
+mut_result:True
+18 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.6 layer_type: <class 'mindspore.nn.layer.basic.Dense'> in_shape: [2, 4096] out_shape: [2, 10]
+mut Basic type: True
+mutate_input_shape: [2, 3, 2, 4096]
+mut_result:True
+19 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.1 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 165, 194]
+mut_result:True
+20 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 24, 27, 35]
+mut_result:True
+21 generation!
+
+Adopt DM mut_strategy!
+select layer: flatten layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 7, 7] out_shape: [2, 25088]
+mut Basic type: True
+mutate_input_shape: [2, 6, 5, 5, 1]
+mut_result:True
+22 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.0 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 25088] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 677, 356]
+mut_result:True
+23 generation!
+
+Adopt DM mut_strategy!
+select layer: flatten layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 7, 7] out_shape: [2, 25088]
+mut Basic type: True
+mutate_input_shape: [2, 7]
+mut_result:True
+24 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.0 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 25088] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 428, 337]
+mut_result:True
+25 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.6 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 10]
+mut Basic type: True
+mutate_input_shape: [2, 213, 134]
+mut_result:True
+26 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 135, 245]
+mut_result:True
+27 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 127, 221]
+mut_result:True
+28 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.6 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 10]
+mut Basic type: True
+mutate_input_shape: [2, 29, 40, 28]
+mut_result:True
+29 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.4 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 125, 246]
+mut_result:True
+30 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.0 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 25088] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 531, 312]
+mut_result:True
+31 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.6 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 10]
+mut Basic type: True
+mutate_input_shape: [2, 118, 224]
+mut_result:True
+32 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.4 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 41, 31, 26]
+mut_result:True
+33 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 196, 114]
+mut_result:True
+34 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.1 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 29, 19, 39]
+mut_result:True
+35 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 28, 36, 28]
+mut_result:True
+36 generation!
+
+Adopt DM mut_strategy!
+select layer: flatten layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 7, 7] out_shape: [2, 25088]
+mut Basic type: True
+mutate_input_shape: [2, 8, 3]
+mut_result:True
+37 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.4 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 25, 48, 27]
+mut_result:True
+38 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 160, 205]
+mut_result:True
+39 generation!
+
+Adopt DM mut_strategy!
+select layer: classifier.0 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 25088] out_shape: [2, 4096]
+mut Basic type: True
+mutate_input_shape: [2, 360, 469]
+mut_result:True
+40 generation!
+

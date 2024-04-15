@@ -1,0 +1,21 @@
+mut_types,mut_layer_name,mut_result
+AFRM,network.layer3.4.relu,True
+AFRM,network.layer2.0.relu,True
+AFRM,network.layer4.0.relu,True
+AFRM,network.layer1.2.relu,True
+AFRM,network.layer3.5.relu,True
+AFRM,network.layer1.1.relu,True
+AFRM,network.layer3.3.relu,True
+AFRM,network.layer3.2.relu,True
+AFRM,network.layer3.1.relu,True
+AFRM,network.layer2.1.relu,True
+AFRM,network.layer2.3.relu,True
+AFRM,network.layer2.2.relu,True
+AFRM,network.layer4.1.relu,True
+AFRM,no,AFRM No suitable ops for
+AFRM,network.layer3.0.relu,True
+AFRM,network.layer4.2.relu,True
+AFRM,network.layer1.0.relu,True
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for

@@ -1,0 +1,21 @@
+mut_types,mut_layer_name,mut_result
+DM,up2.conv.double_conv.1,True
+DM,up1.conv.double_conv.1,True
+DM,up2.relu,True
+DM,down2.maxpool_conv.1.double_conv.3,True
+DM,down2.maxpool_conv.1.double_conv.1,True
+DM,no,DM Create illegal layer
+DM,down2.maxpool_conv.1.double_conv.3,True
+DM,up2.conv.double_conv.3,True
+DM,up1.relu,True
+DM,down3.maxpool_conv.1.double_conv.1,True
+DM,up2.center_crop,True
+DM,up2.center_crop,True
+DM,up3.conv.double_conv.1,True
+DM,up4.conv.double_conv.1,True
+DM,up1.center_crop,True
+DM,inc.double_conv.1,True
+DM,up4.conv.double_conv.3,True
+DM,up1.conv.double_conv.3,True
+DM,up1.conv.double_conv.3,True
+DM,up4.relu,True

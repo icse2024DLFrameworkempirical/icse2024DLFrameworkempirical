@@ -1,0 +1,21 @@
+mut_types,mut_layer_name,mut_result
+AFRM,aspp.aspp1.aspp_conv.2,True
+AFRM,aspp.aspp3.aspp_conv.2,True
+AFRM,aspp.relu,True
+AFRM,aspp.aspp_pooling.conv.2,True
+AFRM,aspp.aspp2.aspp_conv.2,True
+AFRM,aspp.aspp4.aspp_conv.2,True
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for

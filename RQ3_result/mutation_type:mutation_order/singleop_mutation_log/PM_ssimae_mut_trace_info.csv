@@ -1,0 +1,41 @@
+mut_types,mut_layer_name,mut_result
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,"[2, 64, 8, 8]",True
+PM,no,Parameter Miss
+PM,"[2, 32, 38, 38]",True
+PM,"[2, 64, 8, 8]",True
+PM,no,Parameter Miss
+PM,"[2, 32, 38, 38]",True
+PM,"[2, 64, 8, 8]",True
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,"[2, 64, 18, 18]",True
+PM,"[2, 128, 8, 8]",True
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,"[2, 64, 16, 16]",True
+PM,no,Parameter Miss
+PM,"[2, 32, 8, 8]",True
+PM,"[2, 64, 16, 16]",True
+PM,no,Parameter Miss
+PM,"[2, 64, 18, 18]",True
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,"[2, 32, 78, 78]",True
+PM,no,Parameter Miss
+PM,"[2, 64, 16, 16]",True
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,"[2, 64, 16, 16]",True
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,no,Parameter Miss

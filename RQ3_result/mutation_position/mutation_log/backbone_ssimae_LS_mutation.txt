@@ -1,0 +1,240 @@
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.6
+mut_result:True
+1 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.9
+switch layer2:encoded.10
+mut_result:True
+2 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.9
+switch layer2:encoded.11
+mut_result:True
+3 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.5
+mut_result:True
+4 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.5
+switch layer2:encoded.7
+mut_result:True
+5 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.11
+switch layer2:encoded.10
+mut_result:True
+6 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.6
+switch layer2:encoded.7
+mut_result:True
+7 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.10
+switch layer2:encoded.9
+mut_result:True
+8 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.10
+switch layer2:encoded.9
+mut_result:True
+9 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.10
+switch layer2:encoded.11
+mut_result:True
+10 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.10
+switch layer2:encoded.11
+mut_result:True
+11 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.6
+switch layer2:encoded.7
+mut_result:True
+12 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.10
+switch layer2:encoded.11
+mut_result:True
+13 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.5
+mut_result:True
+14 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.6
+switch layer2:encoded.5
+mut_result:True
+15 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.11
+switch layer2:encoded.10
+mut_result:True
+16 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.9
+switch layer2:encoded.10
+mut_result:True
+17 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.6
+mut_result:True
+18 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.5
+switch layer2:encoded.7
+mut_result:True
+19 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.9
+switch layer2:encoded.11
+mut_result:True
+20 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.5
+switch layer2:encoded.7
+mut_result:True
+21 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.6
+mut_result:True
+22 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.6
+mut_result:True
+23 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.11
+switch layer2:encoded.9
+mut_result:True
+24 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.10
+switch layer2:encoded.9
+mut_result:True
+25 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.10
+switch layer2:encoded.11
+mut_result:True
+26 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.5
+mut_result:True
+27 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.5
+mut_result:True
+28 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.6
+mut_result:True
+29 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.5
+switch layer2:encoded.6
+mut_result:True
+30 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.11
+switch layer2:encoded.9
+mut_result:True
+31 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.10
+switch layer2:encoded.9
+mut_result:True
+32 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.10
+switch layer2:encoded.9
+mut_result:True
+33 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.9
+switch layer2:encoded.10
+mut_result:True
+34 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.5
+mut_result:True
+35 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.6
+mut_result:True
+36 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.7
+switch layer2:encoded.6
+mut_result:True
+37 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.6
+switch layer2:encoded.7
+mut_result:True
+38 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.11
+switch layer2:encoded.10
+mut_result:True
+39 generation!
+
+Adopt LS mut_strategy!
+switch layer1:encoded.6
+switch layer2:encoded.7
+mut_result:True
+40 generation!
+

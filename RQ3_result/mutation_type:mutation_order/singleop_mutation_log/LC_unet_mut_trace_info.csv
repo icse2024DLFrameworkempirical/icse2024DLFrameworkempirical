@@ -1,0 +1,41 @@
+mut_types,mut_layer_name,mut_result
+LC,down3.maxpool_conv.1.double_conv.1,True
+LC,up4.relu,True
+LC,up2.conv.double_conv.3,True
+LC,up1.conv.double_conv.1,True
+LC,down2.maxpool_conv.1.double_conv.1,True
+LC,down1.maxpool_conv.1.double_conv.1,True
+LC,down2.maxpool_conv.1.double_conv.3,True
+LC,up1.conv.double_conv.3,True
+LC,inc.double_conv.1,True
+LC,up3.relu,True
+LC,up4.conv.double_conv.3,True
+LC,up3.conv.double_conv.3,True
+LC,inc.double_conv.3,True
+LC,down1.maxpool_conv.1.double_conv.3,True
+LC,up2.relu,True
+LC,up2.conv.double_conv.1,True
+LC,down3.maxpool_conv.1.double_conv.3,True
+LC,up1.relu,True
+LC,down4.maxpool_conv.1.double_conv.1,True
+LC,down4.maxpool_conv.1.double_conv.3,True
+LC,up4.conv.double_conv.1,True
+LC,up3.conv.double_conv.1,True
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for
+LC,no,LC No suitable ops for

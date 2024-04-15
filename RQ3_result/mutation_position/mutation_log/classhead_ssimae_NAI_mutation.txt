@@ -1,0 +1,976 @@
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.12
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+1 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+2 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+3 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+4 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.18
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+5 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.0
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+6 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.2
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+7 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+8 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.2
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+9 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.2
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+10 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.18
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+11 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.18
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+12 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+13 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+14 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+15 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+16 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+17 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.0
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+18 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+19 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.14
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+20 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.18
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+21 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.12
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+22 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.4
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+23 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.10
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+24 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+25 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.10
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+26 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.4
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+27 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+28 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.2
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+29 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+30 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.2
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+31 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.12
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+32 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+33 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+34 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.14
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+35 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.12
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+36 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+37 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+38 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145322
+mutation_ratio:0.4
+mut_result:True
+39 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.2
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+40 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+41 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+42 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+43 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.4
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+44 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.18
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+45 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+46 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.0
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+47 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+48 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.12
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+49 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.10
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+50 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.18
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+51 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+52 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.10
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+53 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.2
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+54 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.12
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+55 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.12
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+56 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.18
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+57 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+58 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.4
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+59 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+60 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.4
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+61 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+62 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.0
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+63 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.10
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+64 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+65 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+66 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+67 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.12
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+68 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.14
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+69 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.2
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+70 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+71 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.18
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+72 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.18
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+73 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.4
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+74 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.10
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+75 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.0
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+76 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+77 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.10
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+78 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+79 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.0
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+80 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+81 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.0
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+82 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+83 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.12
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+84 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.14
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+85 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.18
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+86 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+87 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.0
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+88 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+89 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.4
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+90 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+91 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+92 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.0
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+93 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.14
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+94 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+95 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+candidate_in_mutlayers_indice:-1
+select layer:decoded.6
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+96 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.8
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+97 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.2
+layer type:Conv2d
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+98 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+99 generation!
+
+Adopt NAI mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:decoded.16
+layer type:Conv2dTranspose
+random_seed:145323
+mutation_ratio:0.4
+mut_result:True
+100 generation!
+

@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LA,stage_6.conv5_L2,True
+LA,stage_5.conv6_L2,True
+LA,stage_3.conv6_L1,True
+LA,stage_4.relu,True
+LA,base.vgg_base.layers.20,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,stage_5.conv5_L2,True
+LA,stage_2.conv4_L2,True
+LA,stage_4.conv6_L1,True
+LA,stage_1.conv2_CPM_L2,True
+LA,stage_2.conv4_L2,True
+LA,no,LA Create illegal layer
+LA,base.vgg_base.layers.21,True
+LA,stage_2.conv5_L1,True
+LA,no,LA Create illegal layer
+LA,stage_2.conv2_L1,True
+LA,stage_5.conv4_L1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,stage_1.conv3_CPM_L2,True
+LA,stage_2.conv6_L1,True
+LA,base.vgg_base.layers.13,True
+LA,no,LA Create illegal layer
+LA,stage_5.conv3_L1,True
+LA,no,LA Create illegal layer
+LA,base.vgg_base.layers.17,True
+LA,no,LA Create illegal layer
+LA,stage_2.conv4_L1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,stage_5.conv4_L2,True
+LA,base.vgg_base.layers.7,True
+LA,stage_5.conv3_L2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,stage_5.conv4_L1,True
+LA,base.vgg_base.layers.1,True
+LA,stage_6.conv3_L1,True
+LA,no,LA Create illegal layer
+LA,stage_3.conv3_L2,True
+LA,stage_4.conv3_L1,True
+LA,stage_5.conv6_L2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,base.vgg_base.layers.15,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,stage_6.conv2_L2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,base.vgg_base.layers.17,True
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,stage_6.conv3_L2,True
+LA,stage_5.conv4_L1,True
+LA,base.vgg_base.layers.7,True
+LA,no,LA Create illegal layer
+LA,base.vgg_base.layers.12,True
+LA,stage_6.conv3_L2,True
+LA,stage_2.conv4_L2,True
+LA,stage_4.conv3_L2,True
+LA,stage_5.conv6_L2,True
+LA,stage_1.conv3_CPM_L2,True
+LA,no,LA Create illegal layer
+LA,stage_2.conv3_L2,True
+LA,stage_6.conv2_L2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,stage_6.conv3_L2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,base.vgg_base.layers.2,True
+LA,no,LA set layers failure
+LA,stage_6.conv3_L2,True
+LA,stage_6.conv5_L2,True
+LA,stage_4.conv6_L2,True
+LA,stage_3.conv4_L2,True
+LA,stage_6.conv3_L2,True
+LA,no,LA Create illegal layer
+LA,stage_4.conv4_L1,True
+LA,base.vgg_base.layers.16,True
+LA,stage_4.conv4_L1,True
+LA,no,LA Create illegal layer
+LA,stage_4.conv3_L2,True
+LA,no,LA Create illegal layer
+LA,stage_5.conv2_L2,True
+LA,stage_1.conv2_CPM_L2,True
+LA,no,LA Create illegal layer
+LA,stage_6.conv6_L1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer

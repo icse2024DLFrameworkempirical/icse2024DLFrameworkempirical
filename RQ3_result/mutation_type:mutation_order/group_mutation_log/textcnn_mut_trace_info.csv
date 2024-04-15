@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LS,no,no suitable layer
+PM,no,Parameter Miss
+WS,layer2.0,True
+AFRM,layer2.1,True
+NAI,layer3.0,True
+NEB,layer3.0,True
+NAI,fc,True
+NAI,fc,True
+NAI,layer3.0,True
+LS,no,no suitable layer
+NS,fc,True
+SM,no,SM Create illegal layer
+WS,layer3.0,True
+AFRM,no,set layers failure
+DM,fc,True
+NAI,fc,True
+LS,no,no suitable layer
+NAI,fc,True
+NAI,layer3.0,True
+NAI,layer3.0,True
+WS,layer2.0,True
+LS,no,no suitable layer
+NAI,fc,True
+DM,no,DM set layers failure
+PM,"[2, 288]",True
+NEB,layer3.0,True
+LS,no,no suitable layer
+DM,fc,True
+PM,no,Parameter Miss
+LA,drop,True
+AFRM,no,set layers failure
+LA,layer3.1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LS,no,no suitable layer
+AFRM,no,set layers failure
+NAI,layer2.0,True
+SM,no,SM Create illegal layer
+LS,no,no suitable layer
+SM,layer2.2,True
+NS,drop,True
+SM,layer2.2,True
+DM,no,DM Create illegal layer
+WS,no,no suitable layer
+LS,no,no suitable layer
+NAI,layer3.1,True
+RA,no,RA set layers failure
+PM,no,Parameter Miss
+AFRM,no,set layers failure
+SM,no,SM Create illegal layer
+AFRM,no,set layers failure
+NEB,layer3.0,True
+NAI,drop,True
+NS,layer3.0,True
+NS,layer3.0,True
+DM,no,DM Create illegal layer
+SM,fc,True
+PM,no,Parameter Miss
+LS,no,no suitable layer
+LA,drop,True
+NEB,layer3.0,True
+NAI,layer2.0,True
+WS,no,no suitable layer
+LS,no,no suitable layer
+RA,no,RA set layers failure
+DM,no,DM Create illegal layer
+LA,no,LA Create illegal layer
+DM,no,DM Create illegal layer
+AFRM,no,set layers failure
+LC,no,LC set layers failure
+AFRM,no,set layers failure
+LC,no,LC set layers failure
+WS,layer2.0,True
+LA,no,LA Create illegal layer
+RA,no,RA set layers failure
+AFRM,no,set layers failure
+LS,no,no suitable layer
+AFRM,no,set layers failure
+WS,layer2.0,True
+RA,no,RA set layers failure
+RA,no,RA set layers failure
+RA,no,False
+LC,no,LC set layers failure
+AFRM,no,set layers failure
+NS,drop,True
+SM,no,SM Create illegal layer
+NEB,layer3.0,True
+AFRM,no,AFRM No suitable ops for
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+AFRM,no,set layers failure
+NAI,layer2.0,True
+AFRM,no,AFRM No suitable ops for
+RA,no,False
+LA,layer3.1,True
+NEB,layer3.0,True
+NAI,drop,True
+LA,no,LA Create illegal layer
+WS,no,no suitable layer
+PM,no,Parameter Miss

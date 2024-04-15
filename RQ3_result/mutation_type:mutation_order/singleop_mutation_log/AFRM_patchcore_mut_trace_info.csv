@@ -1,0 +1,21 @@
+mut_types,mut_layer_name,mut_result
+AFRM,relu,True
+AFRM,layer3.4.relu,True
+AFRM,layer3.0.relu,True
+AFRM,layer3.3.relu,True
+AFRM,layer2.0.relu,True
+AFRM,layer1.1.relu,True
+AFRM,layer3.5.relu,True
+AFRM,layer3.1.relu,True
+AFRM,layer1.2.relu,True
+AFRM,layer3.2.relu,True
+AFRM,layer1.0.relu,True
+AFRM,layer2.1.relu,True
+AFRM,layer2.3.relu,True
+AFRM,no,AFRM No suitable ops for
+AFRM,layer2.2.relu,True
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for

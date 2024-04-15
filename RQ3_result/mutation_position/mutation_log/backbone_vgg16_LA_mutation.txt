@@ -1,0 +1,1207 @@
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.8 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 128, 108, 108] out_shape: [2, 128, 108, 108]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'AvgPool3D the sum of the pads in the two directions should be less than or equal to the corresponding kernel size, but got pads: (0,0,2,2,2,2) and kernel: (1, 1, 1)
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/avg_pool_3d.cc:162 GetPadsByPadding
+
+mut_result:LA Create illegal layer!
+1 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.42 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 2, 2] out_shape: [2, 512, 2, 2]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For Maxpool3DWithArgmax, pads should be less equal to the half of ksize, but got ksize is[[const vector]{1, 1, 1}], pads is[[const vector]{0, 1, 1}].
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/max_pool3d_with_argmax.cc:173 CheckKsizeAndPads
+
+mut_result:LA Create illegal layer!
+2 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.19 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 49, 49] out_shape: [2, 256, 49, 49]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=49, output_channels=49>
+insert_layer_outshape equal!
+mut_result:True
+3 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.9 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 128, 108, 108] out_shape: [2, 128, 108, 108]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=108, output_channels=108>
+insert_layer_outshape equal!
+mut_result:True
+4 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:1
+select layer: layers.19 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 49, 49] out_shape: [2, 256, 49, 49]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For Maxpool3DWithArgmax, pads should be less equal to the half of ksize, but got ksize is[[const vector]{1, 1, 1}], pads is[[const vector]{0, 1, 1}].
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/max_pool3d_with_argmax.cc:173 CheckKsizeAndPads
+
+mut_result:LA Create illegal layer!
+5 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.39 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 4, 4] out_shape: [2, 512, 4, 4]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Conv2d<input_channels=512, output_channels=512, kernel_size=(1, 1), stride=(1, 1), pad_mode=valid, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=[[[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ ...
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]], bias_init=[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1.], format=NCHW>
+insert_layer_outshape equal!
+mut_result:True
+6 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.32 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 17, 17] out_shape: [2, 512, 17, 17]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'AvgPool3D the sum of the pads in the two directions should be less than or equal to the corresponding kernel size, but got pads: (0,0,2,2,2,2) and kernel: (1, 1, 1)
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/avg_pool_3d.cc:162 GetPadsByPadding
+
+mut_result:LA Create illegal layer!
+7 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.42 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 2, 2] out_shape: [2, 512, 2, 2]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'AvgPool3D the sum of the pads in the two directions should be less than or equal to the corresponding kernel size, but got pads: (0,0,2,2,2,2) and kernel: (1, 1, 1)
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/avg_pool_3d.cc:162 GetPadsByPadding
+
+mut_result:LA Create illegal layer!
+8 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.42 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 2, 2] out_shape: [2, 512, 2, 2]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For Maxpool3DWithArgmax, pads should be less equal to the half of ksize, but got ksize is[[const vector]{1, 1, 1}], pads is[[const vector]{0, 1, 1}].
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/max_pool3d_with_argmax.cc:173 CheckKsizeAndPads
+
+mut_result:LA Create illegal layer!
+9 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 64, 222, 222] out_shape: [2, 64, 222, 222]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Conv2d<input_channels=64, output_channels=64, kernel_size=(1, 1), stride=(1, 1), pad_mode=valid, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=[[[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ ...
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]], bias_init=[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.], format=NCHW>
+insert_layer_outshape equal!
+mut_result:True
+10 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.15 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 256, 51, 51] out_shape: [2, 256, 51, 51]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.5, gamma=Parameter (name=gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=variance, shape=(256,), dtype=Float32, requires_grad=False)>
+insert_layer_outshape equal!
+mut_result:True
+11 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.42 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 2, 2] out_shape: [2, 512, 2, 2]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'AvgPool3D the sum of the pads in the two directions should be less than or equal to the corresponding kernel size, but got pads: (0,0,2,2,2,2) and kernel: (1, 1, 1)
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/avg_pool_3d.cc:162 GetPadsByPadding
+
+mut_result:LA Create illegal layer!
+12 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.1 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 222, 222] out_shape: [2, 64, 222, 222]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=222, output_channels=222>
+insert_layer_outshape equal!
+mut_result:True
+13 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.1 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 222, 222] out_shape: [2, 64, 222, 222]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: BatchNorm2d<num_features=64, eps=1e-05, momentum=0.5, gamma=Parameter (name=gamma, shape=(64,), dtype=Float32, requires_grad=True), beta=Parameter (name=beta, shape=(64,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=mean, shape=(64,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=variance, shape=(64,), dtype=Float32, requires_grad=False)>
+insert_layer_outshape equal!
+mut_result:True
+14 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.8 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 128, 108, 108] out_shape: [2, 128, 108, 108]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'AvgPool3D the sum of the pads in the two directions should be less than or equal to the corresponding kernel size, but got pads: (0,0,2,2,2,2) and kernel: (1, 1, 1)
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/avg_pool_3d.cc:162 GetPadsByPadding
+
+mut_result:LA Create illegal layer!
+15 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.38 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 512, 4, 4] out_shape: [2, 512, 4, 4]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=4, output_channels=4>
+insert_layer_outshape equal!
+mut_result:True
+16 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:0
+select layer: layers.39 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 4, 4] out_shape: [2, 512, 4, 4]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For Maxpool3DWithArgmax, pads should be less equal to the half of ksize, but got ksize is[[const vector]{1, 1, 1}], pads is[[const vector]{0, 1, 1}].
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/max_pool3d_with_argmax.cc:173 CheckKsizeAndPads
+
+mut_result:LA Create illegal layer!
+17 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.42 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 2, 2] out_shape: [2, 512, 2, 2]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Conv2d<input_channels=512, output_channels=512, kernel_size=(1, 1), stride=(1, 1), pad_mode=valid, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=[[[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ ...
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]], bias_init=[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1.], format=NCHW>
+insert_layer_outshape equal!
+mut_result:True
+18 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.28 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 512, 19, 19] out_shape: [2, 512, 19, 19]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Conv2d<input_channels=512, output_channels=512, kernel_size=(1, 1), stride=(1, 1), pad_mode=valid, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=[[[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ ...
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]], bias_init=[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1.], format=NCHW>
+insert_layer_outshape equal!
+mut_result:True
+19 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 64, 222, 222] out_shape: [2, 64, 222, 222]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=222, output_channels=222, has_bias=True>
+insert_layer_outshape equal!
+mut_result:True
+20 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.35 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 512, 6, 6] out_shape: [2, 512, 6, 6]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Conv2d<input_channels=512, output_channels=512, kernel_size=(1, 1), stride=(1, 1), pad_mode=valid, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=[[[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ ...
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]], bias_init=[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1.], format=NCHW>
+insert_layer_outshape equal!
+mut_result:True
+21 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:1
+select layer: layers.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 222, 222] out_shape: [2, 64, 222, 222]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Conv2d<input_channels=64, output_channels=64, kernel_size=(1, 1), stride=(1, 1), pad_mode=valid, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=[[[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ ...
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]], bias_init=[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.], format=NCHW>
+insert_layer_outshape equal!
+mut_result:True
+22 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:1
+select layer: layers.1 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 222, 222] out_shape: [2, 64, 222, 222]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: BatchNorm2d<num_features=64, eps=1e-05, momentum=0.5, gamma=Parameter (name=gamma, shape=(64,), dtype=Float32, requires_grad=True), beta=Parameter (name=beta, shape=(64,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=mean, shape=(64,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=variance, shape=(64,), dtype=Float32, requires_grad=False)>
+insert_layer_outshape equal!
+mut_result:True
+23 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.18 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 256, 49, 49] out_shape: [2, 256, 49, 49]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.5, gamma=Parameter (name=gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=variance, shape=(256,), dtype=Float32, requires_grad=False)>
+insert_layer_outshape equal!
+mut_result:True
+24 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.41 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 512, 2, 2] out_shape: [2, 512, 2, 2]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=2, output_channels=2>
+insert_layer_outshape equal!
+mut_result:True
+25 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.31 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 512, 17, 17] out_shape: [2, 512, 17, 17]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'AvgPool3D the sum of the pads in the two directions should be less than or equal to the corresponding kernel size, but got pads: (0,0,2,2,2,2) and kernel: (1, 1, 1)
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/avg_pool_3d.cc:162 GetPadsByPadding
+
+mut_result:LA Create illegal layer!
+26 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:0
+select layer: layers.18 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 49, 49] out_shape: [2, 256, 49, 49]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'AvgPool3D the sum of the pads in the two directions should be less than or equal to the corresponding kernel size, but got pads: (0,0,2,2,2,2) and kernel: (1, 1, 1)
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/avg_pool_3d.cc:162 GetPadsByPadding
+
+mut_result:LA Create illegal layer!
+27 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.9 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 128, 108, 108] out_shape: [2, 128, 108, 108]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(1, 1), stride=(1, 1), pad_mode=valid, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=[[[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ ...
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]
+
+
+ [[[1.]]
+
+  [[1.]]
+
+  [[1.]]
+
+  ...
+
+  [[1.]]
+
+  [[1.]]
+
+  [[1.]]]], bias_init=[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1.], format=NCHW>
+insert_layer_outshape equal!
+mut_result:True
+28 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.35 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 6, 6] out_shape: [2, 512, 6, 6]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.5, gamma=Parameter (name=gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=variance, shape=(512,), dtype=Float32, requires_grad=False)>
+insert_layer_outshape equal!
+mut_result:True
+29 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.42 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 2, 2] out_shape: [2, 512, 2, 2]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'AvgPool3D the sum of the pads in the two directions should be less than or equal to the corresponding kernel size, but got pads: (0,0,2,2,2,2) and kernel: (1, 1, 1)
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/avg_pool_3d.cc:162 GetPadsByPadding
+
+mut_result:LA Create illegal layer!
+30 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.31 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 512, 17, 17] out_shape: [2, 512, 17, 17]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.5, gamma=Parameter (name=gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=variance, shape=(512,), dtype=Float32, requires_grad=False)>
+insert_layer_outshape equal!
+mut_result:True
+31 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.5 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 64, 220, 220] out_shape: [2, 64, 220, 220]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: BatchNorm2d<num_features=64, eps=1e-05, momentum=0.5, gamma=Parameter (name=gamma, shape=(64,), dtype=Float32, requires_grad=True), beta=Parameter (name=beta, shape=(64,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=mean, shape=(64,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=variance, shape=(64,), dtype=Float32, requires_grad=False)>
+insert_layer_outshape equal!
+mut_result:True
+32 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.36 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 6, 6] out_shape: [2, 512, 6, 6]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=6, output_channels=6, has_bias=True>
+insert_layer_outshape equal!
+mut_result:True
+33 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.11 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 128, 106, 106] out_shape: [2, 128, 106, 106]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: BatchNorm2d<num_features=128, eps=1e-05, momentum=0.5, gamma=Parameter (name=gamma, shape=(128,), dtype=Float32, requires_grad=True), beta=Parameter (name=beta, shape=(128,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=mean, shape=(128,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=variance, shape=(128,), dtype=Float32, requires_grad=False)>
+insert_layer_outshape equal!
+mut_result:True
+34 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.28 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 19, 19] out_shape: [2, 512, 19, 19]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=19, output_channels=19>
+insert_layer_outshape equal!
+mut_result:True
+35 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:0
+select layer: layers.5 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 220, 220] out_shape: [2, 64, 220, 220]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: BatchNorm2d<num_features=64, eps=1e-05, momentum=0.5, gamma=Parameter (name=gamma, shape=(64,), dtype=Float32, requires_grad=True), beta=Parameter (name=beta, shape=(64,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=mean, shape=(64,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=variance, shape=(64,), dtype=Float32, requires_grad=False)>
+insert_layer_outshape equal!
+mut_result:True
+36 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.25 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: [2, 512, 21, 21] out_shape: [2, 512, 21, 21]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For Maxpool3DWithArgmax, pads should be less equal to the half of ksize, but got ksize is[[const vector]{1, 1, 1}], pads is[[const vector]{0, 1, 1}].
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/max_pool3d_with_argmax.cc:173 CheckKsizeAndPads
+
+mut_result:LA Create illegal layer!
+37 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.31 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 17, 17] out_shape: [2, 512, 17, 17]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=17, output_channels=17, has_bias=True>
+insert_layer_outshape equal!
+mut_result:True
+38 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.12 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 128, 106, 106] out_shape: [2, 128, 106, 106]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For Maxpool3DWithArgmax, pads should be less equal to the half of ksize, but got ksize is[[const vector]{1, 1, 1}], pads is[[const vector]{0, 1, 1}].
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/ops/max_pool3d_with_argmax.cc:173 CheckKsizeAndPads
+
+mut_result:LA Create illegal layer!
+39 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.29 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 19, 19] out_shape: [2, 512, 19, 19]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.5, gamma=Parameter (name=gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=variance, shape=(512,), dtype=Float32, requires_grad=False)>
+insert_layer_outshape equal!
+mut_result:True
+40 generation!
+

@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LS,no,False
+PM,"[2, 256, 56, 56]",True
+NS,layer4.0.conv3,True
+AFRM,layer4.1.relu,True
+RA,layer1.1.relu,True
+DM,no,False
+SM,layer4.0.conv1,True
+GF,layer4.1.bn1,True
+DM,no,False
+LS,no,False
+WS,layer3.4.conv2,True
+NS,layer4.2.conv1,True
+NEB,layer2.0.conv2,True
+RA,relu,True
+DM,no,False
+NS,layer4.0.down_sample_layer.0,True
+LC,layer2.3.relu,True
+DM,no,False
+GF,layer1.1.conv3,True
+DM,no,False
+WS,layer1.0.conv1,True
+NS,layer4.2.conv2,True
+LA,layer3.0.bn1,True
+PM,"[2, 512, 28, 28]",True
+LA,layer1.1.conv2,True
+NS,layer3.3.conv2,True
+NS,end_point,True
+DM,layer4.0.conv1,True
+AFRM,layer1.1.relu,True
+LA,layer3.1.bn3,True
+PM,"[2, 128, 28, 28]",True
+LA,layer1.1.bn3,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+WS,layer3.0.conv2,True
+GF,layer1.0.down_sample_layer.0,True
+NS,layer3.5.conv1,True
+SM,layer2.2.conv3,True
+LC,layer3.3.conv2,True
+LA,layer4.2.bn1,True
+NS,layer3.0.conv2,True
+NEB,layer2.0.conv2,True
+NEB,layer2.0.conv2,True
+RA,layer3.0.relu,True
+NEB,layer2.0.conv2,True
+LD,layer2.3.bn3,True
+AFRM,layer3.3.relu,True
+RA,layer1.2.relu,True
+LS,"relu,bn1",True
+SM,bn1,True
+LS,"layer3.1.conv2,layer3.3.conv2",True
+NAI,layer2.3.conv2,True
+LS,no,set layers failure
+AFRM,layer4.2.relu,True
+SM,no,False
+NAI,conv1,True
+NEB,layer3.3.conv2,True
+NAI,layer4.2.bn1,True
+LC,layer4.0.relu,True
+LA,layer3.0.bn3,True
+NEB,layer3.3.conv2,True
+DM,bn1,True
+RA,layer3.4.relu,True
+NAI,layer4.0.conv2,True
+LC,layer1.2.bn1,True
+WS,layer1.1.conv1,True
+LC,layer2.0.bn1,True
+DM,no,False
+LS,"layer2.2.conv2,layer2.2.bn1",True
+LD,layer3.3.bn1,True
+LS,no,False
+LD,layer4.1.bn3,True
+RA,layer3.4.relu,True
+GF,end_point,True
+PM,"[2, 1024, 14, 14]",True
+NEB,layer3.3.conv2,True
+DM,no,False
+PM,"[2, 1024, 14, 14]",True
+DM,no,False
+AFRM,layer3.5.relu,True
+WS,layer4.1.conv2,True
+NAI,layer2.1.conv1,True
+LD,layer3.0.bn2,True
+LS,"layer3.0.relu,layer3.1.relu",True
+NEB,layer3.3.conv2,True
+NS,layer3.0.bn1,True
+NAI,layer3.2.conv3,True
+NS,layer1.2.conv1,True
+PM,"[2, 256, 56, 56]",True
+LD,layer4.1.bn1,True
+NAI,layer3.4.conv2,True
+RA,layer3.2.relu,True
+LS,"layer2.2.bn2,layer2.1.conv2",True
+NS,layer2.3.conv3,True
+GF,layer3.0.bn1,True
+SM,layer4.0.down_sample_layer.0,True
+WS,layer3.4.conv3,True
+LA,layer3.4.bn3,True
+LA,layer2.1.relu,True
+PM,"[2, 1024, 14, 14]",True

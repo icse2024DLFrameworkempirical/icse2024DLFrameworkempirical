@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,layer3.1.bn3,True
+LA,no,LA Create illegal layer
+LA,layer2.0.bn3,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,layer4.1.relu,True
+LA,layer3.4.bn3,True
+LA,layer2.1.bn3,True
+LA,layer1.1.conv2,True
+LA,no,False
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,layer1.0.conv2,True
+LA,no,LA Create illegal layer
+LA,no,False
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,layer3.2.bn3,True
+LA,layer2.1.conv2,True
+LA,layer2.1.relu,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,False
+LA,layer3.4.conv2,True
+LA,no,False
+LA,no,False
+LA,layer2.0.bn1,True
+LA,no,False
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,layer3.1.bn1,True
+LA,no,LA Create illegal layer
+LA,layer2.1.relu,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,False
+LA,no,LA Create illegal layer
+LA,no,False
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,layer2.2.bn2,True
+LA,layer4.1.bn1,True
+LA,layer1.0.bn1,True
+LA,layer1.2.bn3,True
+LA,no,False
+LA,no,False
+LA,layer4.1.conv2,True
+LA,relu,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,layer4.2.bn2,True
+LA,no,LA Create illegal layer
+LA,layer4.1.bn1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,layer3.4.bn1,True
+LA,layer3.1.conv2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,layer1.0.bn2,True
+LA,layer2.1.conv2,True
+LA,layer1.1.bn2,True
+LA,layer3.4.bn3,True
+LA,no,LA Create illegal layer
+LA,layer1.0.bn1,True
+LA,bn1,True
+LA,no,LA Create illegal layer
+LA,layer3.5.relu,True
+LA,no,LA Create illegal layer
+LA,layer3.5.conv2,True
+LA,layer4.1.bn3,True
+LA,no,False
+LA,bn1,True
+LA,layer3.0.bn3,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,layer3.4.bn3,True
+LA,no,LA Create illegal layer
+LA,layer3.3.bn1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,layer3.5.bn2,True
+LA,no,LA Create illegal layer
+LA,layer1.0.bn2,True
+LA,no,LA Create illegal layer

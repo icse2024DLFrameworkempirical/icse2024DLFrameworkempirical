@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LA,aspp.aspp4.aspp_conv.2,True
+LA,no,LA Create illegal layer
+LA,no,False
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,aspp.bn1,True
+LA,no,LA Create illegal layer
+LA,aspp.aspp3.aspp_conv.2,True
+LA,aspp.relu,True
+LA,no,LA Create illegal layer
+LA,aspp.aspp2.aspp_conv.2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,aspp.aspp3.aspp_conv.2,True
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,aspp.aspp1.aspp_conv.2,True
+LA,no,LA set layers failure
+LA,aspp.aspp_pooling.conv.2,True
+LA,no,LA set layers failure
+LA,aspp.relu,True
+LA,aspp.aspp1.aspp_conv.2,True
+LA,no,LA Create illegal layer
+LA,aspp.relu,True
+LA,aspp.aspp3.aspp_conv.2,True
+LA,aspp.aspp1.aspp_conv.2,True
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,aspp.aspp2.aspp_conv.2,True
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,aspp.bn1,True
+LA,no,False
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,False
+LA,aspp.aspp4.aspp_conv.2,True
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,aspp.aspp4.aspp_conv.2,True
+LA,no,LA Create illegal layer
+LA,aspp.relu,True
+LA,no,False
+LA,no,LA set layers failure
+LA,aspp.aspp4.aspp_conv.2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,aspp.aspp4.aspp_conv.2,True
+LA,aspp.aspp2.aspp_conv.2,True
+LA,aspp.bn1,True
+LA,no,LA set layers failure
+LA,aspp.aspp2.aspp_conv.2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,False
+LA,no,LA Create illegal layer
+LA,aspp.aspp2.aspp_conv.2,True
+LA,aspp.bn1,True
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,no,False
+LA,aspp.aspp3.aspp_conv.2,True
+LA,no,False
+LA,aspp.relu,True
+LA,aspp.relu,True
+LA,no,LA Create illegal layer
+LA,aspp.relu,True
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,aspp.aspp_pooling.conv.2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,False
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer

@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LS,"network.0.1,network.0.2",True
+LS,"network.24.2,network.25.1",True
+LS,"network.21.0,network.21.1",True
+LS,"network.18.2,network.20.0",True
+LS,"network.12.1,network.20.0",True
+LS,"network.9.0,network.10.2",True
+LS,"network.10.2,network.9.1",True
+LS,"network.26.1,network.25.0",True
+LS,"network.20.1,network.18.0",True
+LS,"network.23.2,network.23.1",True
+LS,"network.18.1,network.12.2",True
+LS,"network.0.1,network.1.0",True
+LS,"network.21.2,network.14.1",True
+LS,"network.9.0,network.10.0",True
+LS,"network.14.0,network.14.2",True
+LS,"network.2.1,network.2.2",True
+LS,"network.8.1,network.9.1",True
+LS,"network.17.0,network.17.1",True
+LS,"network.5.2,network.6.0",True
+LS,"network.21.2,network.19.0",True
+LS,"network.23.2,network.23.1",True
+LS,"network.18.0,network.21.2",True
+LS,"network.20.0,network.15.0",True
+LS,no,set layers failure
+LS,"network.26.1,network.25.2",True
+LS,no,set layers failure
+LS,"network.13.2,network.14.2",True
+LS,no,set layers failure
+LS,"network.2.1,network.2.2",True
+LS,"network.10.1,network.10.0",True
+LS,"network.2.1,network.2.2",True
+LS,"network.24.1,network.25.2",True
+LS,no,set layers failure
+LS,"network.3.2,network.3.1",True
+LS,"network.2.2,network.2.1",True
+LS,"network.25.2,network.26.0",True
+LS,"network.22.2,network.18.0",True
+LS,"network.12.2,network.16.0",True
+LS,no,set layers failure
+LS,"network.3.1,network.3.2",True
+LS,"network.24.2,network.24.1",True
+LS,"network.15.0,network.18.1",True
+LS,"network.5.0,network.4.2",True
+LS,"network.26.1,network.25.2",True
+LS,"network.13.2,network.19.1",True
+LS,"network.15.2,network.22.1",True
+LS,"network.6.2,network.4.2",True
+LS,no,set layers failure
+LS,"network.7.1,network.7.2",True
+LS,"network.14.0,network.19.0",True
+LS,"network.21.2,network.16.2",True
+LS,"network.6.1,network.5.2",True
+LS,"network.11.2,network.11.1",True
+LS,"network.3.1,network.3.2",True
+LS,no,set layers failure
+LS,"network.21.0,network.18.2",True
+LS,"network.3.1,network.3.2",True
+LS,"network.25.0,network.25.2",True
+LS,"network.1.2,network.0.1",True
+LS,"network.2.2,network.2.1",True
+LS,"network.26.0,network.25.1",True
+LS,"network.8.2,network.9.0",True
+LS,"network.15.2,network.21.0",True
+LS,"network.22.1,network.22.0",True
+LS,"network.20.0,network.16.2",True
+LS,"network.18.0,network.18.1",True
+LS,"network.4.2,network.5.1",True
+LS,"network.19.0,network.17.0",True
+LS,"network.8.2,network.9.2",True
+LS,no,set layers failure
+LS,no,set layers failure
+LS,"network.5.2,network.6.2",True
+LS,"network.6.0,network.5.2",True
+LS,"network.14.0,network.22.0",True
+LS,"network.2.1,network.2.2",True
+LS,"network.26.1,network.25.1",True
+LS,"network.8.1,network.10.0",True
+LS,no,set layers failure
+LS,"network.21.1,network.15.1",True
+LS,"network.9.2,network.10.2",True
+LS,"network.6.1,network.4.2",True
+LS,"network.4.1,network.4.2",True
+LS,"network.21.1,network.13.0",True
+LS,"network.18.2,network.14.2",True
+LS,"network.20.2,network.13.2",True
+LS,"network.18.1,network.19.1",True
+LS,"network.9.2,network.10.2",True
+LS,"network.6.1,network.5.2",True
+LS,"network.10.1,network.10.0",True
+LS,"network.16.1,network.17.0",True
+LS,"network.1.1,network.1.0",True
+LS,"network.18.1,network.18.2",True
+LS,"network.9.2,network.9.0",True
+LS,"network.7.2,network.7.1",True
+LS,no,set layers failure
+LS,"network.16.2,network.20.2",True
+LS,"network.19.2,network.22.2",True
+LS,"network.11.2,network.11.1",True
+LS,"network.11.1,network.11.2",True
+LS,"network.1.1,network.0.2",True

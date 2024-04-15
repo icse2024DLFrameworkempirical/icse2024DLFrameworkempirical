@@ -1,0 +1,900 @@
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113411
+mutation_ratio:0.4
+mut_result:True
+1 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113412
+mutation_ratio:0.4
+mut_result:True
+2 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113413
+mutation_ratio:0.4
+mut_result:True
+3 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113414
+mutation_ratio:0.4
+mut_result:True
+4 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113415
+mutation_ratio:0.4
+mut_result:True
+5 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113416
+mutation_ratio:0.4
+mut_result:True
+6 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113417
+mutation_ratio:0.4
+mut_result:True
+7 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113418
+mutation_ratio:0.4
+mut_result:True
+8 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113419
+mutation_ratio:0.4
+mut_result:True
+9 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113420
+mutation_ratio:0.4
+mut_result:True
+10 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113421
+mutation_ratio:0.4
+mut_result:True
+11 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113422
+mutation_ratio:0.4
+mut_result:True
+12 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113423
+mutation_ratio:0.4
+mut_result:True
+13 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113424
+mutation_ratio:0.4
+mut_result:True
+14 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113425
+mutation_ratio:0.4
+mut_result:True
+15 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113426
+mutation_ratio:0.4
+mut_result:True
+16 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113427
+mutation_ratio:0.4
+mut_result:True
+17 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113428
+mutation_ratio:0.4
+mut_result:True
+18 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113429
+mutation_ratio:0.4
+mut_result:True
+19 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113430
+mutation_ratio:0.4
+mut_result:True
+20 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113431
+mutation_ratio:0.4
+mut_result:True
+21 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113432
+mutation_ratio:0.4
+mut_result:True
+22 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113433
+mutation_ratio:0.4
+mut_result:True
+23 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113434
+mutation_ratio:0.4
+mut_result:True
+24 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113435
+mutation_ratio:0.4
+mut_result:True
+25 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113436
+mutation_ratio:0.4
+mut_result:True
+26 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113437
+mutation_ratio:0.4
+mut_result:True
+27 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113438
+mutation_ratio:0.4
+mut_result:True
+28 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113439
+mutation_ratio:0.4
+mut_result:True
+29 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113440
+mutation_ratio:0.4
+mut_result:True
+30 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113441
+mutation_ratio:0.4
+mut_result:True
+31 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113442
+mutation_ratio:0.4
+mut_result:True
+32 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113443
+mutation_ratio:0.4
+mut_result:True
+33 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113444
+mutation_ratio:0.4
+mut_result:True
+34 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113445
+mutation_ratio:0.4
+mut_result:True
+35 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113446
+mutation_ratio:0.4
+mut_result:True
+36 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113447
+mutation_ratio:0.4
+mut_result:True
+37 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113448
+mutation_ratio:0.4
+mut_result:True
+38 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113449
+mutation_ratio:0.4
+mut_result:True
+39 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113450
+mutation_ratio:0.4
+mut_result:True
+40 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113452
+mutation_ratio:0.4
+mut_result:True
+41 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113453
+mutation_ratio:0.4
+mut_result:True
+42 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113454
+mutation_ratio:0.4
+mut_result:True
+43 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113455
+mutation_ratio:0.4
+mut_result:True
+44 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113456
+mutation_ratio:0.4
+mut_result:True
+45 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113457
+mutation_ratio:0.4
+mut_result:True
+46 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113458
+mutation_ratio:0.4
+mut_result:True
+47 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113459
+mutation_ratio:0.4
+mut_result:True
+48 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113500
+mutation_ratio:0.4
+mut_result:True
+49 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113501
+mutation_ratio:0.4
+mut_result:True
+50 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113502
+mutation_ratio:0.4
+mut_result:True
+51 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113503
+mutation_ratio:0.4
+mut_result:True
+52 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113504
+mutation_ratio:0.4
+mut_result:True
+53 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113505
+mutation_ratio:0.4
+mut_result:True
+54 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113506
+mutation_ratio:0.4
+mut_result:True
+55 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113507
+mutation_ratio:0.4
+mut_result:True
+56 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113508
+mutation_ratio:0.4
+mut_result:True
+57 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113509
+mutation_ratio:0.4
+mut_result:True
+58 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113510
+mutation_ratio:0.4
+mut_result:True
+59 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113511
+mutation_ratio:0.4
+mut_result:True
+60 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113512
+mutation_ratio:0.4
+mut_result:True
+61 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113513
+mutation_ratio:0.4
+mut_result:True
+62 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113514
+mutation_ratio:0.4
+mut_result:True
+63 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113515
+mutation_ratio:0.4
+mut_result:True
+64 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113516
+mutation_ratio:0.4
+mut_result:True
+65 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113517
+mutation_ratio:0.4
+mut_result:True
+66 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113518
+mutation_ratio:0.4
+mut_result:True
+67 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113519
+mutation_ratio:0.4
+mut_result:True
+68 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113520
+mutation_ratio:0.4
+mut_result:True
+69 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113521
+mutation_ratio:0.4
+mut_result:True
+70 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113522
+mutation_ratio:0.4
+mut_result:True
+71 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113523
+mutation_ratio:0.4
+mut_result:True
+72 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113524
+mutation_ratio:0.4
+mut_result:True
+73 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113525
+mutation_ratio:0.4
+mut_result:True
+74 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113526
+mutation_ratio:0.4
+mut_result:True
+75 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113527
+mutation_ratio:0.4
+mut_result:True
+76 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113528
+mutation_ratio:0.4
+mut_result:True
+77 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113529
+mutation_ratio:0.4
+mut_result:True
+78 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113530
+mutation_ratio:0.4
+mut_result:True
+79 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113531
+mutation_ratio:0.4
+mut_result:True
+80 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113532
+mutation_ratio:0.4
+mut_result:True
+81 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113533
+mutation_ratio:0.4
+mut_result:True
+82 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113534
+mutation_ratio:0.4
+mut_result:True
+83 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113535
+mutation_ratio:0.4
+mut_result:True
+84 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113536
+mutation_ratio:0.4
+mut_result:True
+85 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113537
+mutation_ratio:0.4
+mut_result:True
+86 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113538
+mutation_ratio:0.4
+mut_result:True
+87 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113539
+mutation_ratio:0.4
+mut_result:True
+88 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113540
+mutation_ratio:0.4
+mut_result:True
+89 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113541
+mutation_ratio:0.4
+mut_result:True
+90 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113542
+mutation_ratio:0.4
+mut_result:True
+91 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113543
+mutation_ratio:0.4
+mut_result:True
+92 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113544
+mutation_ratio:0.4
+mut_result:True
+93 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113545
+mutation_ratio:0.4
+mut_result:True
+94 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113546
+mutation_ratio:0.4
+mut_result:True
+95 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113547
+mutation_ratio:0.4
+mut_result:True
+96 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113548
+mutation_ratio:0.4
+mut_result:True
+97 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113549
+mutation_ratio:0.4
+mut_result:True
+98 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113550
+mutation_ratio:0.4
+mut_result:True
+99 generation!
+
+Adopt NEB mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:classifier.0
+layer type:Dense
+random_seed:113551
+mutation_ratio:0.4
+mut_result:True
+100 generation!
+

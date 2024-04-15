@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LS,"network.5.0,network.5.1",True
+PM,"[2, 512, 19, 19]",True
+NS,network.16.0,True
+AFRM,network.16.2,True
+RA,network.25.2,True
+DM,network.19.2,True
+SM,network.3.0,True
+GF,network.18.0,True
+DM,network.3.2,True
+LS,"network.5.2,network.5.1",True
+WS,network.9.0,True
+NS,network.7.0,True
+NEB,network.10.0,True
+RA,network.6.2,True
+DM,network.18.2,True
+NS,network.21.0,True
+LC,no,LC set layers failure
+DM,network.24.2,True
+GF,network.16.1,True
+DM,network.21.2,True
+WS,network.8.0,True
+NS,network.9.0,True
+LA,no,LA Create illegal layer
+PM,"[2, 512, 19, 19]",True
+LA,no,LA set layers failure
+NS,network.6.0,True
+NS,network.1.0,True
+DM,network.15.2,True
+AFRM,network.13.2,True
+LA,no,LA Create illegal layer
+PM,"[2, 512, 19, 19]",True
+LA,network.9.0,True
+LA,network.0.2,True
+LA,network.17.2,True
+WS,network.2.0,True
+GF,network.25.1,True
+NS,network.3.0,True
+SM,network.25.0,True
+LC,no,LC set layers failure
+LA,network.5.0,True
+NS,network.0.0,True
+NEB,network.10.0,True
+NEB,network.10.0,True
+RA,network.5.1,True
+NEB,network.10.0,True
+LD,network.23.1,True
+AFRM,network.20.2,True
+RA,network.6.2,True
+LS,"network.12.1,network.21.0",True
+SM,no,SM set layers failure
+LS,"network.20.1,network.22.0",True
+NAI,network.20.0,True
+LS,"network.13.1,network.22.2",True
+AFRM,network.2.2,True
+SM,network.7.2,True
+NAI,network.12.0,True
+NEB,network.10.0,True
+NAI,network.23.0,True
+LC,network.22.2,True
+LA,no,LA Create illegal layer
+NEB,network.10.0,True
+DM,network.26.2,True
+RA,network.23.2,True
+NAI,network.20.0,True
+LC,network.10.2,True
+WS,network.1.0,True
+LC,network.3.1,True
+DM,no,DM Create illegal layer
+LS,"network.22.1,network.14.2",True
+LD,network.14.0,True
+LS,"network.10.0,network.9.0",True
+LD,network.5.0,True
+RA,network.22.1,True
+GF,network.16.0,True
+PM,"[2, 512, 19, 19]",True
+NEB,network.9.0,True
+DM,network.6.2,True
+PM,"[2, 256, 19, 19]",True
+DM,network.11.2,True
+AFRM,network.23.2,True
+WS,no,no suitable layer
+NAI,network.8.0,True
+LD,network.8.1,True
+LS,"network.26.1,network.26.0",True
+NEB,network.9.0,True
+NS,network.15.0,True
+NAI,network.1.0,True
+NS,network.23.0,True
+PM,"[2, 256, 38, 38]",True
+LD,network.10.2,True
+NAI,network.18.0,True
+RA,network.5.1,True
+LS,"network.15.2,network.18.1",True
+NS,network.25.0,True
+GF,network.3.2,True
+SM,network.25.1,True
+WS,no,no suitable layer
+LA,network.22.0,True
+LA,no,LA set layers failure
+PM,"[2, 128, 75, 75]",True

@@ -1,0 +1,700 @@
+Adopt DM mut_strategy!
+select layer: resnet.layer4.1.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 2048, 33, 33] out_shape: [2, 2048, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 26, 10, 32, 25]
+mut_result:True
+1 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.14.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 10, 9, 16, 9, 27]
+mut_result:True
+2 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.22.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 13, 15, 30, 15]
+mut_result:True
+3 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.18.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 12, 30, 11, 31]
+mut_result:True
+4 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.15.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 21, 28, 21, 16]
+mut_result:True
+5 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.7.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 52, 40]
+mut_result:True
+6 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.13.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 27, 13, 23, 11]
+mut_result:True
+7 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.5.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 20, 37]
+mut_result:True
+8 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.13.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 41, 20]
+mut_result:True
+9 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer1.1.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 129, 129] out_shape: [2, 256, 129, 129]
+mut Basic type: True
+mutate_input_shape: [2, 93, 57, 109, 38]
+mut_result:True
+10 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer4.2.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 2048, 33, 33] out_shape: [2, 2048, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 23]
+mut_result:True
+11 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.0.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 23, 23, 27, 47, 21]
+mut_result:True
+12 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.4.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 13, 26, 21, 8, 11]
+mut_result:True
+13 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer4.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 2048, 33, 33] out_shape: [2, 2048, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 23, 19, 30, 11, 32]
+mut_result:True
+14 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.1.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 38, 36]
+mut_result:True
+15 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.5.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 8, 30, 10, 32, 25]
+mut_result:True
+16 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.7.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 44, 56]
+mut_result:True
+17 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.18.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 36, 50]
+mut_result:True
+18 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.2.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 46, 39, 64, 36]
+mut_result:True
+19 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.7.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 30, 13, 10, 18, 12]
+mut_result:True
+20 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 70]
+mut_result:True
+21 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.11.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 64]
+mut_result:True
+22 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.11.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 21, 23, 16, 20, 17]
+mut_result:True
+23 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.8.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 15, 25, 25, 23, 21]
+mut_result:True
+24 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.1.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 46, 26, 53, 55]
+mut_result:True
+25 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.10.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 65]
+mut_result:True
+26 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.17.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 23, 38]
+mut_result:True
+27 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.13.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 12, 8, 14, 15]
+mut_result:True
+28 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.7.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 28]
+mut_result:True
+29 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.2.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 27, 11, 21, 31]
+mut_result:True
+30 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 19, 52, 58, 51]
+mut_result:True
+31 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.21.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 37, 26]
+mut_result:True
+32 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 23, 31, 34, 26, 24]
+mut_result:True
+33 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer4.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 2048, 33, 33] out_shape: [2, 2048, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 29, 20]
+mut_result:True
+34 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.17.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 17, 8, 16, 29]
+mut_result:True
+35 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.17.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 33]
+mut_result:True
+36 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer4.1.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 2048, 33, 33] out_shape: [2, 2048, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 46, 47]
+mut_result:True
+37 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.9.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 26, 48]
+mut_result:True
+38 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.17.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 17, 27, 9, 31, 13]
+mut_result:True
+39 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.18.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 21, 33]
+mut_result:True
+40 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.17.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 30, 15, 27, 13, 15]
+mut_result:True
+41 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.3.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 39, 18, 28, 36, 29]
+mut_result:True
+42 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.3.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 39, 53, 41, 25]
+mut_result:True
+43 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.15.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 53]
+mut_result:True
+44 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer4.1.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 2048, 33, 33] out_shape: [2, 2048, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 59, 51]
+mut_result:True
+45 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.6.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 49, 62]
+mut_result:True
+46 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer1.2.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 129, 129] out_shape: [2, 256, 129, 129]
+mut Basic type: True
+mutate_input_shape: [2, 159]
+mut_result:True
+47 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.15.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 11, 20, 18, 17, 22]
+mut_result:True
+48 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer1.0.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 129, 129] out_shape: [2, 256, 129, 129]
+mut Basic type: True
+mutate_input_shape: [2, 183, 76]
+mut_result:True
+49 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer4.1.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 2048, 33, 33] out_shape: [2, 2048, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 49]
+mut_result:True
+50 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.3.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 11, 21, 25, 26]
+mut_result:True
+51 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.19.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 53, 33]
+mut_result:True
+52 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.9.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 64, 16]
+mut_result:True
+53 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.21.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 30]
+mut_result:True
+54 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.12.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 21, 36]
+mut_result:True
+55 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.3.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 33, 31, 52, 62]
+mut_result:True
+56 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.8.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 34]
+mut_result:True
+57 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 13, 17, 28, 29]
+mut_result:True
+58 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer1.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 129, 129] out_shape: [2, 256, 129, 129]
+mut Basic type: True
+mutate_input_shape: [2, 117, 197]
+mut_result:True
+59 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.13.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 10, 14, 25, 26]
+mut_result:True
+60 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.22.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 25, 37]
+mut_result:True
+61 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.3.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 40, 38, 43, 34]
+mut_result:True
+62 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer1.1.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 129, 129] out_shape: [2, 256, 129, 129]
+mut Basic type: True
+mutate_input_shape: [2, 30, 22, 45, 30, 26]
+mut_result:True
+63 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer1.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 129, 129] out_shape: [2, 256, 129, 129]
+mut Basic type: True
+mutate_input_shape: [2, 47, 81, 62, 120]
+mut_result:True
+64 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 27, 19, 17, 29, 22]
+mut_result:True
+65 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer4.1.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 2048, 33, 33] out_shape: [2, 2048, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 17, 13, 19, 27, 23]
+mut_result:True
+66 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.4.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 17, 16, 29, 21, 16]
+mut_result:True
+67 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.1.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 60, 19, 17, 18, 23]
+mut_result:True
+68 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.9.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 15, 25, 18, 10]
+mut_result:True
+69 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.3.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 54, 104]
+mut_result:True
+70 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.20.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 57, 45]
+mut_result:True
+71 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer1.0.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 129, 129] out_shape: [2, 256, 129, 129]
+mut Basic type: True
+mutate_input_shape: [2, 26, 30, 35, 25, 45]
+mut_result:True
+72 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.18.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 19, 32, 28, 16, 22]
+mut_result:True
+73 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer4.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 2048, 33, 33] out_shape: [2, 2048, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 40, 44]
+mut_result:True
+74 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.8.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 28, 37]
+mut_result:True
+75 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.6.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 59, 21]
+mut_result:True
+76 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 9, 26, 31, 26]
+mut_result:True
+77 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.1.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 25, 28, 28, 32, 8]
+mut_result:True
+78 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.3.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 110]
+mut_result:True
+79 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.9.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 34, 28]
+mut_result:True
+80 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.9.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 23]
+mut_result:True
+81 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer4.1.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 2048, 33, 33] out_shape: [2, 2048, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 17, 11, 21, 30]
+mut_result:True
+82 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.0.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 111, 56]
+mut_result:True
+83 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 64, 257, 257] out_shape: [2, 64, 257, 257]
+mut Basic type: True
+mutate_input_shape: [2, 370, 501]
+mut_result:True
+84 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.13.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 25, 20, 23, 23, 12]
+mut_result:True
+85 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer4.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 2048, 33, 33] out_shape: [2, 2048, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 21, 11, 19, 9, 19]
+mut_result:True
+86 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.10.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 24, 58]
+mut_result:True
+87 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 49]
+mut_result:True
+88 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer1.0.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 129, 129] out_shape: [2, 256, 129, 129]
+mut Basic type: True
+mutate_input_shape: [2, 155]
+mut_result:True
+89 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.18.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 10, 16, 24, 18, 30]
+mut_result:True
+90 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.3.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 9, 29, 21, 19, 21]
+mut_result:True
+91 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.15.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 27]
+mut_result:True
+92 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.10.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 23, 13, 15, 28, 18]
+mut_result:True
+93 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.1.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 12, 14, 11, 31]
+mut_result:True
+94 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.8.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 44]
+mut_result:True
+95 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer1.2.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 129, 129] out_shape: [2, 256, 129, 129]
+mut Basic type: True
+mutate_input_shape: [2, 104, 92, 77, 54]
+mut_result:True
+96 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.1.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 37, 49, 20, 41]
+mut_result:True
+97 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.0.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 19, 23, 19, 8, 26]
+mut_result:True
+98 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer2.3.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 512, 65, 65] out_shape: [2, 512, 65, 65]
+mut Basic type: True
+mutate_input_shape: [2, 81, 51]
+mut_result:True
+99 generation!
+
+Adopt DM mut_strategy!
+select layer: resnet.layer3.10.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 1024, 33, 33] out_shape: [2, 1024, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 28, 31, 9, 9, 17]
+mut_result:True
+100 generation!
+

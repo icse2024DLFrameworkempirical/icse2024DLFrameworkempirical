@@ -1,0 +1,900 @@
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv1_L1
+layer type:Conv2d
+random_seed:204010
+mutation_ratio:0.4
+mut_result:True
+1 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv6_L2
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+2 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv4_L1
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+3 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv2_L2
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+4 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv2_L2
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+5 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv7_L2
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+6 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv5_L1
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+7 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv4_L1
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+8 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv7_L1
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+9 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv3_L2
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+10 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv3_L2
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+11 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv3_L2
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+12 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv7_L1
+layer type:Conv2d
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+13 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.relu
+layer type:ReLU
+random_seed:204011
+mutation_ratio:0.4
+mut_result:True
+14 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv4_L1
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+15 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_1.conv4_CPM_L2
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+16 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.relu
+layer type:ReLU
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+17 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv1_L2
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+18 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv6_L2
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+19 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.relu
+layer type:ReLU
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+20 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_1.conv5_CPM_L2
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+21 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv7_L2
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+22 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.relu
+layer type:ReLU
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+23 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv4_L2
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+24 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv7_L2
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+25 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_1.conv3_CPM_L1
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+26 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv5_L1
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+27 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv5_L1
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+28 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv6_L1
+layer type:Conv2d
+random_seed:204012
+mutation_ratio:0.4
+mut_result:True
+29 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv1_L1
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+30 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv7_L1
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+31 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv4_L2
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+32 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv1_L1
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+33 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv2_L2
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+34 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_1.conv5_CPM_L2
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+35 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv4_L1
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+36 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.relu
+layer type:ReLU
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+37 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv2_L2
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+38 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv3_L2
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+39 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv3_L2
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+40 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv6_L1
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+41 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_1.conv5_CPM_L1
+layer type:Conv2d
+random_seed:204013
+mutation_ratio:0.4
+mut_result:True
+42 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv3_L1
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+43 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv1_L1
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+44 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv3_L2
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+45 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv1_L2
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+46 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv4_L2
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+47 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_1.conv3_CPM_L2
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+48 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv1_L2
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+49 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv6_L2
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+50 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_1.conv4_CPM_L1
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+51 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv7_L2
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+52 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv3_L2
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+53 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv6_L2
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+54 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv7_L1
+layer type:Conv2d
+random_seed:204014
+mutation_ratio:0.4
+mut_result:True
+55 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv6_L1
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+56 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv2_L1
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+57 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv5_L2
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+58 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv4_L2
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+59 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv7_L1
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+60 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv1_L1
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+61 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv1_L1
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+62 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_1.conv2_CPM_L1
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+63 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv3_L1
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+64 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv2_L2
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+65 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv1_L1
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+66 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv4_L1
+layer type:Conv2d
+random_seed:204015
+mutation_ratio:0.4
+mut_result:True
+67 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv3_L2
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+68 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv7_L1
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+69 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv2_L2
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+70 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv5_L2
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+71 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv5_L1
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+72 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv7_L2
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+73 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv7_L2
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+74 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv5_L1
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+75 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv2_L2
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+76 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv2_L2
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+77 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv6_L2
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+78 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv1_L2
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+79 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv5_L1
+layer type:Conv2d
+random_seed:204016
+mutation_ratio:0.4
+mut_result:True
+80 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv4_L1
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+81 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv5_L2
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+82 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv7_L1
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+83 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv1_L2
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+84 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv5_L2
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+85 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv1_L1
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+86 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv7_L1
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+87 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv5_L2
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+88 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv5_L1
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+89 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_4.conv1_L2
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+90 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_5.conv2_L1
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+91 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv1_L2
+layer type:Conv2d
+random_seed:204017
+mutation_ratio:0.4
+mut_result:True
+92 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv1_L1
+layer type:Conv2d
+random_seed:204018
+mutation_ratio:0.4
+mut_result:True
+93 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_1.conv2_CPM_L2
+layer type:Conv2d
+random_seed:204018
+mutation_ratio:0.4
+mut_result:True
+94 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv7_L2
+layer type:Conv2d
+random_seed:204018
+mutation_ratio:0.4
+mut_result:True
+95 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv2_L2
+layer type:Conv2d
+random_seed:204018
+mutation_ratio:0.4
+mut_result:True
+96 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv5_L2
+layer type:Conv2d
+random_seed:204018
+mutation_ratio:0.4
+mut_result:True
+97 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_3.conv1_L2
+layer type:Conv2d
+random_seed:204018
+mutation_ratio:0.4
+mut_result:True
+98 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_6.conv5_L1
+layer type:Conv2d
+random_seed:204018
+mutation_ratio:0.4
+mut_result:True
+99 generation!
+
+Adopt GF mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer:stage_2.conv6_L2
+layer type:Conv2d
+random_seed:204018
+mutation_ratio:0.4
+mut_result:True
+100 generation!
+

@@ -1,0 +1,70 @@
+Adopt AFRM mut_strategy!
+delete layer_name:layers.2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+1 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:layers.36
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+2 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:layers.22
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+3 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:layers.29
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+4 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:layers.19
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+5 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:layers.32
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+6 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:layers.12
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+7 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:layers.26
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+8 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:layers.42
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+9 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:layers.9
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+10 generation!
+

@@ -1,0 +1,304 @@
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.8 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 128, 108, 108) out_shape: (2, 128, 108, 108)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=128, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.8.gamma, shape=(128,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.8.beta, shape=(128,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.8.moving_mean, shape=(128,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.8.moving_variance, shape=(128,), dtype=Float32, requires_grad=False)>
+mut_result:True
+1 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.29 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 512, 19, 19) out_shape: (2, 512, 19, 19)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+2 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.39 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 512, 4, 4) out_shape: (2, 512, 4, 4)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+3 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.26 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 512, 21, 21) out_shape: (2, 512, 21, 21)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+4 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.12 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 128, 106, 106) out_shape: (2, 128, 106, 106)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+5 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.35 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 6, 6) out_shape: (2, 512, 6, 6)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.35.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.35.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.35.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.35.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+6 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.19 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 256, 49, 49) out_shape: (2, 256, 49, 49)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+7 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.22 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 256, 47, 47) out_shape: (2, 256, 47, 47)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+8 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.16 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 256, 51, 51) out_shape: (2, 256, 51, 51)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+9 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.18 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 49, 49) out_shape: (2, 256, 49, 49)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.18.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.18.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.18.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.18.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+10 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 64, 222, 222) out_shape: (2, 64, 222, 222)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+11 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.25 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 21, 21) out_shape: (2, 512, 21, 21)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.25.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.25.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.25.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.25.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+12 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.41 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 2, 2) out_shape: (2, 512, 2, 2)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.41.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.41.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.41.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.41.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+13 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 64, 222, 222) out_shape: (2, 64, 222, 222)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=64, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.1.gamma, shape=(64,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.1.beta, shape=(64,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.1.moving_mean, shape=(64,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.1.moving_variance, shape=(64,), dtype=Float32, requires_grad=False)>
+mut_result:True
+14 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.31 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 17, 17) out_shape: (2, 512, 17, 17)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.31.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.31.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.31.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.31.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+15 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.4 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 64, 220, 220) out_shape: (2, 64, 220, 220)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=64, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.4.gamma, shape=(64,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.4.beta, shape=(64,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.4.moving_mean, shape=(64,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.4.moving_variance, shape=(64,), dtype=Float32, requires_grad=False)>
+mut_result:True
+16 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.5 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 64, 220, 220) out_shape: (2, 64, 220, 220)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+17 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.38 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 4, 4) out_shape: (2, 512, 4, 4)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.38.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.38.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.38.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.38.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+18 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.21 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 47, 47) out_shape: (2, 256, 47, 47)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.21.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.21.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.21.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.21.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+19 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.15 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 51, 51) out_shape: (2, 256, 51, 51)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.15.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.15.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.15.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.15.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+20 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.32 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 512, 17, 17) out_shape: (2, 512, 17, 17)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+21 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.36 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 512, 6, 6) out_shape: (2, 512, 6, 6)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+22 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.28 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 19, 19) out_shape: (2, 512, 19, 19)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.28.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.28.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.28.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.28.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+23 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.42 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 512, 2, 2) out_shape: (2, 512, 2, 2)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+24 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.9 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 128, 108, 108) out_shape: (2, 128, 108, 108)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+25 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: layers.11 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 128, 106, 106) out_shape: (2, 128, 106, 106)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=128, eps=1e-05, momentum=0.9, gamma=Parameter (name=layers.11.gamma, shape=(128,), dtype=Float32, requires_grad=True), beta=Parameter (name=layers.11.beta, shape=(128,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=layers.11.moving_mean, shape=(128,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=layers.11.moving_variance, shape=(128,), dtype=Float32, requires_grad=False)>
+mut_result:True
+26 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+27 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+28 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+29 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+30 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+31 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+32 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+33 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+34 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+35 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+36 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+37 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+38 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+39 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+40 generation!
+

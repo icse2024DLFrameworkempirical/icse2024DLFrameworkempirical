@@ -1,0 +1,280 @@
+Adopt DM mut_strategy!
+select layer: encoded.9 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: [2, 64, 16, 16] out_shape: [2, 64, 16, 16]
+mut Basic type: True
+mutate_input_shape: [2, 13, 7, 15, 11, 9]
+mut_result:True
+1 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.1 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: [2, 32, 128, 128] out_shape: [2, 32, 128, 128]
+mut Basic type: True
+mutate_input_shape: [2, 43, 45, 49, 49]
+mut_result:True
+2 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.11 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: [2, 64, 16, 16] out_shape: [2, 64, 16, 16]
+mut Basic type: True
+mutate_input_shape: [2, 7, 4, 5, 6]
+mut_result:True
+3 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.3 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: [2, 32, 64, 64] out_shape: [2, 32, 64, 64]
+mut Basic type: True
+mutate_input_shape: [2, 112, 120]
+mut_result:True
+4 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.5 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: [2, 32, 32, 32] out_shape: [2, 32, 32, 32]
+mut Basic type: True
+mutate_input_shape: [2, 50]
+mut_result:True
+5 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 64, 64] out_shape: [2, 32, 64, 64]
+mut Basic type: True
+mutate_input_shape: [2, 40]
+mut_result:True
+6 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.15 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: [2, 64, 8, 8] out_shape: [2, 64, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 13, 6]
+mut_result:True
+7 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.11 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 16, 16] out_shape: [2, 64, 16, 16]
+mut Basic type: True
+mutate_input_shape: [2, 5, 10, 12, 4, 6]
+mut_result:True
+8 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.5 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 32, 32] out_shape: [2, 32, 32, 32]
+mut Basic type: True
+mutate_input_shape: [2, 51, 55]
+mut_result:True
+9 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.13 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: [2, 128, 8, 8] out_shape: [2, 128, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 15]
+mut_result:True
+10 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.9 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 16, 16] out_shape: [2, 64, 16, 16]
+mut Basic type: True
+mutate_input_shape: [2, 14, 6, 10, 7, 11]
+mut_result:True
+11 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.17 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: [2, 32, 8, 8] out_shape: [2, 32, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 6, 3, 3, 7, 4]
+mut_result:True
+12 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.9 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 16, 16] out_shape: [2, 64, 16, 16]
+mut Basic type: True
+mutate_input_shape: [2, 12, 5, 4, 11, 14]
+mut_result:True
+13 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.9 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 16, 16] out_shape: [2, 64, 16, 16]
+mut Basic type: True
+mutate_input_shape: [2, 20, 12]
+mut_result:True
+14 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.17 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 8, 8] out_shape: [2, 32, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 12]
+mut_result:True
+15 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.7 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: [2, 32, 32, 32] out_shape: [2, 32, 32, 32]
+mut Basic type: True
+mutate_input_shape: [2, 54, 25]
+mut_result:True
+16 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.5 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 32, 32] out_shape: [2, 32, 32, 32]
+mut Basic type: True
+mutate_input_shape: [2, 22]
+mut_result:True
+17 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.15 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 8, 8] out_shape: [2, 64, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 12]
+mut_result:True
+18 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.1 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 128, 128] out_shape: [2, 32, 128, 128]
+mut Basic type: True
+mutate_input_shape: [2, 159]
+mut_result:True
+19 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.13 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 128, 8, 8] out_shape: [2, 128, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 8, 8]
+mut_result:True
+20 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.17 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 8, 8] out_shape: [2, 32, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 5]
+mut_result:True
+21 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.11 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 16, 16] out_shape: [2, 64, 16, 16]
+mut Basic type: True
+mutate_input_shape: [2, 29]
+mut_result:True
+22 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.13 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 128, 8, 8] out_shape: [2, 128, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 15, 5]
+mut_result:True
+23 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 64, 64] out_shape: [2, 32, 64, 64]
+mut Basic type: True
+mutate_input_shape: [2, 18, 15, 11, 12, 23]
+mut_result:True
+24 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 64, 64] out_shape: [2, 32, 64, 64]
+mut Basic type: True
+mutate_input_shape: [2, 28, 28, 52, 29]
+mut_result:True
+25 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.11 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 16, 16] out_shape: [2, 64, 16, 16]
+mut Basic type: True
+mutate_input_shape: [2, 15]
+mut_result:True
+26 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.1 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 128, 128] out_shape: [2, 32, 128, 128]
+mut Basic type: True
+mutate_input_shape: [2, 68, 101]
+mut_result:True
+27 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.1 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 128, 128] out_shape: [2, 32, 128, 128]
+mut Basic type: True
+mutate_input_shape: [2, 20, 24, 18, 23, 25]
+mut_result:True
+28 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.1 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 128, 128] out_shape: [2, 32, 128, 128]
+mut Basic type: True
+mutate_input_shape: [2, 153, 126]
+mut_result:True
+29 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.1 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 128, 128] out_shape: [2, 32, 128, 128]
+mut Basic type: True
+mutate_input_shape: [2, 211, 176]
+mut_result:True
+30 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.15 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 8, 8] out_shape: [2, 64, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 3, 5, 7, 4, 5]
+mut_result:True
+31 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.17 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 8, 8] out_shape: [2, 32, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 11]
+mut_result:True
+32 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.15 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 8, 8] out_shape: [2, 64, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 8, 9]
+mut_result:True
+33 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.15 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 64, 8, 8] out_shape: [2, 64, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 7]
+mut_result:True
+34 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.5 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 32, 32] out_shape: [2, 32, 32, 32]
+mut Basic type: True
+mutate_input_shape: [2, 47]
+mut_result:True
+35 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.17 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 8, 8] out_shape: [2, 32, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 2, 2, 4, 6, 3]
+mut_result:True
+36 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.17 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 8, 8] out_shape: [2, 32, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 14]
+mut_result:True
+37 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.5 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 32, 32] out_shape: [2, 32, 32, 32]
+mut Basic type: True
+mutate_input_shape: [2, 24]
+mut_result:True
+38 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.1 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 128, 128] out_shape: [2, 32, 128, 128]
+mut Basic type: True
+mutate_input_shape: [2, 135]
+mut_result:True
+39 generation!
+
+Adopt DM mut_strategy!
+select layer: encoded.17 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 32, 8, 8] out_shape: [2, 32, 8, 8]
+mut Basic type: True
+mutate_input_shape: [2, 3, 6, 3, 7, 4]
+mut_result:True
+40 generation!
+

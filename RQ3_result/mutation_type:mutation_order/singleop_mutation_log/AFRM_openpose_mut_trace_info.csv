@@ -1,0 +1,21 @@
+mut_types,mut_layer_name,mut_result
+AFRM,base.vgg_base.layers.6,True
+AFRM,base.vgg_base.layers.15,True
+AFRM,base.vgg_base.layers.11,True
+AFRM,base.vgg_base.layers.17,True
+AFRM,stage_2.relu,True
+AFRM,base.vgg_base.layers.8,True
+AFRM,stage_4.relu,True
+AFRM,base.vgg_base.layers.13,True
+AFRM,stage_5.relu,True
+AFRM,base.relu,True
+AFRM,base.vgg_base.layers.20,True
+AFRM,base.vgg_base.layers.22,True
+AFRM,base.vgg_base.layers.1,True
+AFRM,stage_6.relu,True
+AFRM,stage_1.relu,True
+AFRM,stage_3.relu,True
+AFRM,base.vgg_base.layers.3,True
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for
+AFRM,no,AFRM No suitable ops for

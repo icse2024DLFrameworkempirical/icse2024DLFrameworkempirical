@@ -1,0 +1,538 @@
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.basic.Dense'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+1 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.basic.Dense'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+2 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.basic.Dense'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=4096, output_channels=4096>
+insert_layer_outshape equal!
+mut_result:True
+3 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[AvgPool3D], the x_rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+4 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=4096, output_channels=4096>
+insert_layer_outshape equal!
+mut_result:True
+5 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[AvgPool3D], the x_rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+6 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+7 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[Conv2D], the x shape size must be equal to 4, but got 2.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+8 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+9 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+10 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.1 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[MaxPool3DWithArgmax], the input x rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+11 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[Conv2D], the x shape size must be equal to 4, but got 2.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+12 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:2
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[MaxPool3DWithArgmax], the input x rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+13 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[AvgPool3D], the x_rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+14 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[Conv2D], the x shape size must be equal to 4, but got 2.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+15 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+16 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.4 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[AvgPool3D], the x_rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+17 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[MaxPool3DWithArgmax], the input x rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+18 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=4096, output_channels=4096>
+insert_layer_outshape equal!
+mut_result:True
+19 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+20 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.4 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[AvgPool3D], the x_rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+21 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[AvgPool3D], the x_rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+22 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[MaxPool3DWithArgmax], the input x rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+23 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:0
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[MaxPool3DWithArgmax], the input x rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+24 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[Conv2D], the x shape size must be equal to 4, but got 2.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+25 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[AvgPool3D], the x_rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+26 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.4 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+27 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.1 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[AvgPool3D], the x_rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+28 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:1
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[MaxPool3DWithArgmax], the input x rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+29 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[AvgPool3D], the x_rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+30 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.1 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+31 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:2
+select layer: classifier.3 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=4096, output_channels=4096>
+insert_layer_outshape equal!
+mut_result:True
+32 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:0
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[Conv2D], the x shape size must be equal to 4, but got 2.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+33 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.4 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[Conv2D], the x shape size must be equal to 4, but got 2.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+34 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.1 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+35 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.4 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+36 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.4 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[Conv2D], the x shape size must be equal to 4, but got 2.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+37 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For 'BatchNorm2d', the in_shape must have 4 dims, but got 2.
+mut_result:LA Create illegal layer!
+38 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.5 layer_type: <class 'mindspore.nn.layer.basic.Dropout'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+Illegal LA mutate!
+For primitive[MaxPool3DWithArgmax], the input x rank must be equal to 5, but got 3.
+
+----------------------------------------------------
+- C++ Call Stack: (For framework developers)
+----------------------------------------------------
+mindspore/core/utils/check_convert_utils.cc:590 CheckInteger
+
+mut_result:LA Create illegal layer!
+39 generation!
+
+Adopt LA mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: classifier.1 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 4096] out_shape: [2, 4096]
+mut Basic type: True
+add Basic layer : Basic_op
+select insert layer: Dense<input_channels=4096, output_channels=4096, has_bias=True>
+insert_layer_outshape equal!
+mut_result:True
+40 generation!
+

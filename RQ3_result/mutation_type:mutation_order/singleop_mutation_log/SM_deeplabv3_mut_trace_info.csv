@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+SM,aspp.aspp_pooling.conv.0,True
+SM,no,False
+SM,no,SM set layers failure
+SM,no,False
+SM,no,False
+SM,aspp.aspp_pooling.conv.2,True
+SM,aspp.conv1,True
+SM,no,SM set layers failure
+SM,aspp.aspp_pooling.conv.1,True
+SM,no,False
+SM,no,SM set layers failure
+SM,no,SM set layers failure
+SM,no,SM set layers failure
+SM,no,SM set layers failure
+SM,aspp.bn1,True
+SM,aspp.relu,True
+SM,aspp.aspp_pooling.conv.2,True
+SM,no,False
+SM,no,False
+SM,aspp.aspp_pooling.conv.1,True
+SM,no,SM set layers failure
+SM,no,SM set layers failure
+SM,no,False
+SM,aspp.aspp_pooling.conv.0,True
+SM,aspp.aspp_pooling.conv.0,True
+SM,aspp.conv2,True
+SM,no,SM set layers failure
+SM,no,False
+SM,no,SM set layers failure
+SM,no,False
+SM,aspp.aspp_pooling.conv.1,True
+SM,no,False
+SM,aspp.aspp_pooling.conv.1,True
+SM,aspp.aspp_pooling.conv.1,True
+SM,no,False
+SM,aspp.relu,True
+SM,no,False
+SM,aspp.conv1,True
+SM,no,False
+SM,no,SM set layers failure
+SM,no,SM set layers failure
+SM,no,False
+SM,no,SM set layers failure
+SM,aspp.bn1,True
+SM,aspp.aspp_pooling.conv.0,True
+SM,no,False
+SM,no,SM set layers failure
+SM,no,False
+SM,aspp.conv1,True
+SM,aspp.aspp_pooling.conv.1,True
+SM,no,False
+SM,no,False
+SM,no,SM set layers failure
+SM,no,False
+SM,no,False
+SM,no,SM set layers failure
+SM,no,False
+SM,aspp.bn1,True
+SM,no,False
+SM,aspp.conv1,True
+SM,no,False
+SM,aspp.aspp_pooling.conv.0,True
+SM,aspp.aspp_pooling.conv.1,True
+SM,no,SM set layers failure
+SM,no,SM set layers failure
+SM,no,False
+SM,no,False
+SM,no,False
+SM,no,False
+SM,no,False
+SM,no,False
+SM,aspp.aspp_pooling.conv.0,True
+SM,no,False
+SM,no,SM set layers failure
+SM,aspp.aspp_pooling.conv.0,True
+SM,no,False
+SM,no,SM set layers failure
+SM,no,SM set layers failure
+SM,no,False
+SM,aspp.relu,True
+SM,no,SM set layers failure
+SM,no,SM set layers failure
+SM,aspp.aspp_pooling.conv.2,True
+SM,no,False
+SM,no,SM set layers failure
+SM,aspp.aspp_pooling.conv.2,True
+SM,no,False
+SM,no,False
+SM,no,False
+SM,aspp.aspp_pooling.conv.1,True
+SM,no,False
+SM,no,SM set layers failure
+SM,no,False
+SM,no,False
+SM,aspp.conv2,True
+SM,no,False
+SM,aspp.relu,True
+SM,no,False
+SM,no,False
+SM,aspp.relu,True

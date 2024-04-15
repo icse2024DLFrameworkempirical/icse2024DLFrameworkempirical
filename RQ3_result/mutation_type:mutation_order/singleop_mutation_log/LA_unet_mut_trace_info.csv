@@ -1,0 +1,41 @@
+mut_types,mut_layer_name,mut_result
+LA,down3.maxpool_conv.1.double_conv.1,True
+LA,no,LA Create illegal layer
+LA,up3.relu,True
+LA,up2.relu,True
+LA,no,LA Create illegal layer
+LA,up2.conv.double_conv.3,True
+LA,up2.relu,True
+LA,up4.conv.double_conv.3,True
+LA,up1.conv.double_conv.3,True
+LA,no,LA Create illegal layer
+LA,down4.maxpool_conv.1.double_conv.1,True
+LA,down2.maxpool_conv.1.double_conv.3,True
+LA,no,LA Create illegal layer
+LA,inc.double_conv.3,True
+LA,up2.conv.double_conv.1,True
+LA,up1.conv.double_conv.3,True
+LA,up1.conv.double_conv.3,True
+LA,up3.conv.double_conv.3,True
+LA,up3.conv.double_conv.3,True
+LA,down4.maxpool_conv.1.double_conv.3,True
+LA,up2.conv.double_conv.3,True
+LA,up3.relu,True
+LA,up1.conv.double_conv.1,True
+LA,no,LA Create illegal layer
+LA,up1.conv.double_conv.3,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,down2.maxpool_conv.1.double_conv.3,True
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,down1.maxpool_conv.1.double_conv.3,True
+LA,up4.conv.double_conv.1,True
+LA,inc.double_conv.1,True
+LA,down2.maxpool_conv.1.double_conv.1,True
+LA,no,LA Create illegal layer
+LA,up3.conv.double_conv.3,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,up3.conv.double_conv.3,True
+LA,up2.relu,True

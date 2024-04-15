@@ -1,0 +1,748 @@
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_3.conv6_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(1, 1), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f7820067b10>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f7820067e90>, format=NCHW>
+mut_result:True
+1 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_2.conv5_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4ba25d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78201ed9d0>, format=NCHW>
+mut_result:True
+2 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_6.conv3_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f738d7c0690>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f738d7c06d0>, format=NCHW>
+mut_result:True
+3 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_6.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+4 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_6.conv6_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(1, 1), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f738d7c0950>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f738d7c0050>, format=NCHW>
+mut_result:True
+5 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_3.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+6 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_4.conv3_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78202bb090>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78541bd410>, format=NCHW>
+mut_result:True
+7 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_4.conv6_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(1, 1), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78541bdd90>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4b78550>, format=NCHW>
+mut_result:True
+8 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_6.conv5_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4e72750>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f738d7c0610>, format=NCHW>
+mut_result:True
+9 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_3.conv4_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78540b5b10>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f7820067190>, format=NCHW>
+mut_result:True
+10 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_3.conv3_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4ba24d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4fb7e10>, format=NCHW>
+mut_result:True
+11 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_2.conv3_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f77e60fded0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4ebb390>, format=NCHW>
+mut_result:True
+12 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_4.conv5_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78541bdb90>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78541bdcd0>, format=NCHW>
+mut_result:True
+13 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_5.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+14 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_1.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 512, 46, 46) out_shape: (2, 512, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+15 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_2.conv5_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f77e60fdf90>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4ebba50>, format=NCHW>
+mut_result:True
+16 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_6.conv2_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78206c4c10>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4e723d0>, format=NCHW>
+mut_result:True
+17 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_3.conv4_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4fb7c10>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4fb7690>, format=NCHW>
+mut_result:True
+18 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_1.conv1_CPM_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(3, 3), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4fe12d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78201eda10>, format=NCHW>
+mut_result:True
+19 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_6.conv4_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78206c4c50>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4e72b90>, format=NCHW>
+mut_result:True
+20 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_3.conv2_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f77e60fda90>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4fb7a50>, format=NCHW>
+mut_result:True
+21 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_5.conv5_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f782c53bd50>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78206c4f90>, format=NCHW>
+mut_result:True
+22 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_6.conv4_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f738d7c0550>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4e72b50>, format=NCHW>
+mut_result:True
+23 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_1.conv2_CPM_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(3, 3), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78201edc50>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4fe1d10>, format=NCHW>
+mut_result:True
+24 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_5.conv4_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4b786d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78206c4950>, format=NCHW>
+mut_result:True
+25 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_5.conv5_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4b78590>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f782c53b790>, format=NCHW>
+mut_result:True
+26 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_1.conv2_CPM_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(3, 3), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78201ed4d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4fe1190>, format=NCHW>
+mut_result:True
+27 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_5.conv3_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4b78150>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4b78d50>, format=NCHW>
+mut_result:True
+28 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_2.conv2_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f77e60fd0d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4ebbe10>, format=NCHW>
+mut_result:True
+29 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_6.conv5_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4e72890>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4e72a50>, format=NCHW>
+mut_result:True
+30 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_4.conv5_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4b78910>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4b78dd0>, format=NCHW>
+mut_result:True
+31 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_4.conv4_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78541bd4d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4b782d0>, format=NCHW>
+mut_result:True
+32 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_5.conv2_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f782c53bcd0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78206c4110>, format=NCHW>
+mut_result:True
+33 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_1.conv1_CPM_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(3, 3), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78201edfd0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78201ed7d0>, format=NCHW>
+mut_result:True
+34 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_2.conv4_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f776c6e9850>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4c1c610>, format=NCHW>
+mut_result:True
+35 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_4.conv6_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(1, 1), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4b78050>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4b78e50>, format=NCHW>
+mut_result:True
+36 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_6.conv6_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(1, 1), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f782c53b350>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4e72c10>, format=NCHW>
+mut_result:True
+37 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_6.conv3_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78206c4410>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78206c4b50>, format=NCHW>
+mut_result:True
+38 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_3.conv6_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(1, 1), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4fb7e50>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4fb7b10>, format=NCHW>
+mut_result:True
+39 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_4.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+40 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_2.conv6_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(1, 1), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4ebb450>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4ebb310>, format=NCHW>
+mut_result:True
+41 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_4.conv3_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78541bd090>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4b78c90>, format=NCHW>
+mut_result:True
+42 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_2.conv2_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4ba29d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f776c6e97d0>, format=NCHW>
+mut_result:True
+43 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_1.conv3_CPM_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(3, 3), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78201edf90>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4fe1c10>, format=NCHW>
+mut_result:True
+44 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_3.conv2_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78202bb9d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f7820067510>, format=NCHW>
+mut_result:True
+45 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_5.conv2_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4b788d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4b78210>, format=NCHW>
+mut_result:True
+46 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_5.conv4_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4b78a50>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f782c53bfd0>, format=NCHW>
+mut_result:True
+47 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_5.conv6_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(1, 1), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f782c53bad0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78206c4a10>, format=NCHW>
+mut_result:True
+48 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_1.conv3_CPM_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(3, 3), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4fe1a50>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4ba2110>, format=NCHW>
+mut_result:True
+49 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_3.conv5_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f7820067450>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f7820067850>, format=NCHW>
+mut_result:True
+50 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_4.conv4_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4ebb610>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78541bd810>, format=NCHW>
+mut_result:True
+51 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_2.conv3_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f776c6e9ad0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78540b5790>, format=NCHW>
+mut_result:True
+52 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_4.conv2_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4fb7d90>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4b78810>, format=NCHW>
+mut_result:True
+53 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_6.conv2_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4e72c90>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f738d7c07d0>, format=NCHW>
+mut_result:True
+54 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_5.conv6_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(1, 1), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f782c53b390>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f782c53b810>, format=NCHW>
+mut_result:True
+55 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_3.conv5_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4fb7ed0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4fb7a90>, format=NCHW>
+mut_result:True
+56 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_2.conv4_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4ebbc90>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78202bbad0>, format=NCHW>
+mut_result:True
+57 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_4.conv2_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4fb7110>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f78541bdfd0>, format=NCHW>
+mut_result:True
+58 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_2.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+59 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_3.conv3_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f78202bb210>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f7820067710>, format=NCHW>
+mut_result:True
+60 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_2.conv6_L1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(1, 1), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f76c4c1c3d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f77e60fd890>, format=NCHW>
+mut_result:True
+61 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: stage_5.conv3_L2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 46, 46) out_shape: (2, 128, 46, 46)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(7, 7), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=True, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f782c53b5d0>, bias_init=<mindspore.common.initializer.Uniform object at 0x7f76c4b78410>, format=NCHW>
+mut_result:True
+62 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+63 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+64 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+65 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+66 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+67 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+68 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+69 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+70 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+71 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+72 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+73 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+74 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+75 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+76 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+77 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+78 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+79 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+80 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+81 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+82 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+83 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+84 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+85 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+86 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+87 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+88 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+89 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+90 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+91 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+92 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+93 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+94 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+95 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+96 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+97 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+98 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+99 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+100 generation!
+

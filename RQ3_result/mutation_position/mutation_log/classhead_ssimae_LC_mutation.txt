@@ -1,0 +1,248 @@
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.7 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: (2, 64, 18, 18) out_shape: (2, 64, 18, 18)
+mut Basic type: True
+add Basic layer : 
+select insert layer: LeakyReLU<>
+mut_result:True
+1 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.9 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: (2, 64, 18, 18) out_shape: (2, 64, 18, 18)
+mut Basic type: True
+add Basic layer : 
+select insert layer: LeakyReLU<>
+mut_result:True
+2 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.1 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: (2, 32, 8, 8) out_shape: (2, 32, 8, 8)
+mut Basic type: True
+add Basic layer : 
+select insert layer: LeakyReLU<>
+mut_result:True
+3 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.13 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: (2, 32, 38, 38) out_shape: (2, 32, 38, 38)
+mut Basic type: True
+add Basic layer : 
+select insert layer: LeakyReLU<>
+mut_result:True
+4 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.5 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: (2, 128, 8, 8) out_shape: (2, 128, 8, 8)
+mut Basic type: True
+add Basic layer : 
+select insert layer: LeakyReLU<>
+mut_result:True
+5 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.11 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: (2, 32, 38, 38) out_shape: (2, 32, 38, 38)
+mut Basic type: True
+add Basic layer : 
+select insert layer: LeakyReLU<>
+mut_result:True
+6 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.17 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: (2, 32, 158, 158) out_shape: (2, 32, 158, 158)
+mut Basic type: True
+add Basic layer : 
+select insert layer: LeakyReLU<>
+mut_result:True
+7 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.15 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: (2, 32, 78, 78) out_shape: (2, 32, 78, 78)
+mut Basic type: True
+add Basic layer : 
+select insert layer: LeakyReLU<>
+mut_result:True
+8 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.8 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 64, 18, 18) out_shape: (2, 64, 18, 18)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=64, output_channels=64, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=1, dilation=(1, 1), group=1, has_bias=False, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f03d88c7310>, bias_init=None, format=NCHW>
+mut_result:True
+9 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.19 layer_type: <class 'mindspore.nn.layer.activation.Sigmoid'> in_shape: (2, 3, 316, 316) out_shape: (2, 3, 316, 316)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Sigmoid<>
+mut_result:True
+10 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.12 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 32, 38, 38) out_shape: (2, 32, 38, 38)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=32, output_channels=32, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=1, dilation=(1, 1), group=1, has_bias=False, weight_init=<mindspore.common.initializer.HeUniform object at 0x7f03d88c7250>, bias_init=None, format=NCHW>
+mut_result:True
+11 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: decoded.3 layer_type: <class 'mindspore.nn.layer.activation.LeakyReLU'> in_shape: (2, 64, 8, 8) out_shape: (2, 64, 8, 8)
+mut Basic type: True
+add Basic layer : 
+select insert layer: LeakyReLU<>
+mut_result:True
+12 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+13 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+14 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+15 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+16 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+17 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+18 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+19 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+20 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+21 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+22 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+23 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+24 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+25 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+26 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+27 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+28 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+29 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+30 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+31 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+32 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+33 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+34 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+35 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+36 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+37 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+38 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+39 generation!
+
+Adopt LC mut_strategy!
+No suitable ops for LC mutation!
+mut_result:No suitable ops for LC mutation!
+40 generation!
+

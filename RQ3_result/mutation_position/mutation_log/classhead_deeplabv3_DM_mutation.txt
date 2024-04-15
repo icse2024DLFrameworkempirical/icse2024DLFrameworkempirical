@@ -1,0 +1,700 @@
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 25, 15, 23, 23, 10]
+mut_result:True
+1 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 54]
+mut_result:False
+2 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 39, 41]
+mut_result:False
+3 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 32, 9, 32, 11]
+mut_result:False
+4 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 50]
+mut_result:False
+5 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0]
+mut_result:True
+6 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 36, 55]
+mut_result:False
+7 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 29, 23, 13, 8, 24]
+mut_result:False
+8 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 50, 43]
+mut_result:True
+9 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 19]
+mut_result:False
+10 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 61, 59]
+mut_result:False
+11 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 28, 17, 22, 15, 14]
+mut_result:False
+12 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 25, 17, 16, 14, 21]
+mut_result:False
+13 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 22, 30]
+mut_result:False
+14 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0]
+mut_result:True
+15 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 58, 20]
+mut_result:False
+16 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 27, 24, 12, 31]
+mut_result:False
+17 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 47]
+mut_result:False
+18 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 22]
+mut_result:False
+19 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 59]
+mut_result:False
+20 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 15, 11, 31, 15]
+mut_result:False
+21 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 65, 20]
+mut_result:False
+22 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 1, 0]
+mut_result:True
+23 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 25, 39]
+mut_result:False
+24 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 29, 32, 27, 31]
+mut_result:False
+25 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 8, 15, 30, 28]
+mut_result:False
+26 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 64, 54]
+mut_result:False
+27 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 25, 26, 14, 19, 14]
+mut_result:False
+28 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 38, 61]
+mut_result:False
+29 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 36, 24]
+mut_result:False
+30 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 21, 10, 15, 21, 32]
+mut_result:False
+31 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 54]
+mut_result:True
+32 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 40, 49]
+mut_result:False
+33 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 31]
+mut_result:False
+34 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 57]
+mut_result:False
+35 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 14, 17, 23, 19, 16]
+mut_result:True
+36 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 21, 11, 11, 8, 10]
+mut_result:False
+37 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 30, 27, 18, 24]
+mut_result:False
+38 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 10, 22, 28, 28]
+mut_result:False
+39 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 24, 22, 16, 10, 21]
+mut_result:True
+40 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0, 0]
+mut_result:True
+41 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 1, 0]
+mut_result:True
+42 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 12, 31, 23, 23]
+mut_result:True
+43 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 13, 15, 20, 25, 15]
+mut_result:True
+44 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 19, 9, 12, 9]
+mut_result:False
+45 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 27, 26]
+mut_result:False
+46 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0, 0, 0, 0, 0]
+mut_result:True
+47 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 16, 18, 16, 11, 22]
+mut_result:False
+48 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 39]
+mut_result:False
+49 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 12, 20, 15, 14, 16]
+mut_result:False
+50 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 32]
+mut_result:False
+51 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 15, 10, 32, 27]
+mut_result:False
+52 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 32, 8, 32, 28]
+mut_result:True
+53 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0]
+mut_result:True
+54 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 43, 37]
+mut_result:False
+55 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 20, 25, 23, 9]
+mut_result:False
+56 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 10, 8, 11, 8, 22]
+mut_result:False
+57 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0, 0, 0, 0, 0]
+mut_result:True
+58 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 35]
+mut_result:False
+59 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0, 0, 0, 0]
+mut_result:True
+60 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 19, 24, 30, 14]
+mut_result:False
+61 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 28]
+mut_result:True
+62 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 42]
+mut_result:False
+63 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 1, 0]
+mut_result:True
+64 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 28]
+mut_result:False
+65 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 16, 20, 16, 27, 14]
+mut_result:False
+66 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 46]
+mut_result:False
+67 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 48]
+mut_result:False
+68 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0]
+mut_result:True
+69 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 47, 41]
+mut_result:False
+70 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0]
+mut_result:True
+71 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 22, 15, 17, 25]
+mut_result:True
+72 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 48, 60]
+mut_result:False
+73 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 13, 25, 15, 29]
+mut_result:True
+74 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 31, 20, 13, 12, 16]
+mut_result:False
+75 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 33, 34]
+mut_result:False
+76 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0, 0, 0, 0, 0]
+mut_result:True
+77 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 10, 8, 18, 30, 9]
+mut_result:False
+78 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0, 0, 0, 0, 0]
+mut_result:True
+79 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 29, 9, 32, 27]
+mut_result:True
+80 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 20, 13, 19, 29]
+mut_result:True
+81 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 27, 13, 13, 10]
+mut_result:False
+82 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 48]
+mut_result:False
+83 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 23, 15, 31, 29, 8]
+mut_result:False
+84 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 18, 21, 22, 25]
+mut_result:False
+85 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 42, 35]
+mut_result:False
+86 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 45, 54]
+mut_result:False
+87 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 50]
+mut_result:False
+88 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 59]
+mut_result:False
+89 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 54, 28]
+mut_result:False
+90 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 30, 20, 16, 23]
+mut_result:False
+91 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 41]
+mut_result:False
+92 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 18, 29, 32, 12]
+mut_result:False
+93 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 21, 27, 11, 24]
+mut_result:False
+94 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0, 0, 0, 0]
+mut_result:True
+95 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 1, 1] out_shape: [2, 256, 1, 1]
+mut Basic type: True
+mutate_input_shape: [2, 0, 0, 0, 0]
+mut_result:True
+96 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 26, 18, 9, 13, 11]
+mut_result:True
+97 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 50]
+mut_result:False
+98 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 57, 62]
+mut_result:False
+99 generation!
+
+Adopt DM mut_strategy!
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.container.SequentialCell'> in_shape: [2, 256, 33, 33] out_shape: [2, 256, 33, 33]
+mut Basic type: True
+mutate_input_shape: [2, 14, 15, 15, 28, 19]
+mut_result:True
+100 generation!
+

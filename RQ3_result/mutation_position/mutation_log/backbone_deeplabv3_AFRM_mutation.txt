@@ -1,0 +1,140 @@
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.14.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+1 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.3.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+2 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer2.1.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+3 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.15.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+4 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer1.2.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+5 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer4.1.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+6 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer1.0.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+7 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.0.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+8 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.7.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+9 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.10.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+10 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.17.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+11 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer2.2.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+12 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+13 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.22.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+14 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.6.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+15 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer4.0.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+16 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.9.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+17 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.1.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+18 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.12.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+19 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:resnet.layer3.5.relu
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+20 generation!
+

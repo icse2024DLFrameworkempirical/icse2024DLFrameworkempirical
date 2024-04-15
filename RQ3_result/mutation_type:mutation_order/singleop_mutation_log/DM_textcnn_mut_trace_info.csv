@@ -1,0 +1,11 @@
+mut_types,mut_layer_name,mut_result
+DM,no,DM set layers failure
+DM,embedding,True
+DM,drop,True
+DM,layer2.1,True
+DM,no,DM Create illegal layer
+DM,no,DM set layers failure
+DM,fc,True
+DM,layer3.1,True
+DM,no,DM Create illegal layer
+DM,fc,True

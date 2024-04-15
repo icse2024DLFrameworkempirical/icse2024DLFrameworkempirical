@@ -1,0 +1,41 @@
+mut_types,mut_layer_name,mut_result
+SM,up1.conv.double_conv.1,True
+SM,no,SM set layers failure
+SM,inc.double_conv.1,True
+SM,down2.maxpool_conv.1.double_conv.1,True
+SM,up3.conv.double_conv.1,True
+SM,up3.conv.double_conv.3,True
+SM,up1.center_crop,True
+SM,inc.double_conv.0,True
+SM,up4.conv.double_conv.1,True
+SM,down1.maxpool_conv.0,True
+SM,up4.up,True
+SM,down3.maxpool_conv.1.double_conv.0,True
+SM,no,SM set layers failure
+SM,no,SM set layers failure
+SM,down4.maxpool_conv.1.double_conv.1,True
+SM,down4.maxpool_conv.1.double_conv.3,True
+SM,inc.double_conv.2,True
+SM,no,SM set layers failure
+SM,down4.maxpool_conv.0,True
+SM,down1.maxpool_conv.1.double_conv.1,True
+SM,up1.conv.double_conv.0,True
+SM,inc.double_conv.3,True
+SM,outc.conv,True
+SM,up4.conv.double_conv.0,True
+SM,down4.maxpool_conv.1.double_conv.3,True
+SM,down1.maxpool_conv.1.double_conv.3,True
+SM,down1.maxpool_conv.0,True
+SM,down2.maxpool_conv.1.double_conv.1,True
+SM,up1.up,True
+SM,up3.center_crop,True
+SM,up2.conv.double_conv.3,True
+SM,up4.conv.double_conv.3,True
+SM,down3.maxpool_conv.0,True
+SM,up2.center_crop,True
+SM,no,SM set layers failure
+SM,up4.relu,True
+SM,up3.up,True
+SM,no,SM set layers failure
+SM,down3.maxpool_conv.1.double_conv.2,True
+SM,down1.maxpool_conv.1.double_conv.1,True

@@ -1,0 +1,906 @@
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.1.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 128, 65, 65) out_shape: (2, 128, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=128, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer2.1.bn1.gamma, shape=(128,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer2.1.bn1.beta, shape=(128,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer2.1.bn1.moving_mean, shape=(128,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer2.1.bn1.moving_variance, shape=(128,), dtype=Float32, requires_grad=False)>
+mut_result:True
+1 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.0.downsample.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 65, 65) out_shape: (2, 512, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer2.0.downsample.1.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer2.0.downsample.1.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer2.0.downsample.1.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer2.0.downsample.1.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+Failed to set layer: resnet.layer2.0.downsample.1!
+list index out of range
+mut_result:LC set layers failure!
+2 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.17.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.17.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.17.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.17.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.17.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+3 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.1.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 33, 33) out_shape: (2, 512, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer4.1.bn1.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer4.1.bn1.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer4.1.bn1.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer4.1.bn1.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+4 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.7.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.7.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.7.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.7.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.7.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+5 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.18.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+6 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.21.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=256, output_channels=256, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=2, dilation=(2, 2), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+7 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.19.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.19.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.19.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.19.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.19.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+8 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.4.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+9 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.2.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 2048, 33, 33) out_shape: (2, 2048, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+10 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.3.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 65, 65) out_shape: (2, 128, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=1, dilation=(1, 1), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+11 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.2.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.2.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.2.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.2.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.2.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+12 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.14.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.14.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.14.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.14.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.14.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+13 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.6.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+14 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.19.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.19.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.19.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.19.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.19.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+15 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.8.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.8.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.8.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.8.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.8.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+16 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.1.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.1.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.1.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.1.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.1.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+17 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.5.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.5.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.5.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.5.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.5.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+18 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.1.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+19 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.13.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.13.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.13.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.13.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.13.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+20 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.13.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.13.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.13.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.13.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.13.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+21 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.2.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 65, 65) out_shape: (2, 512, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer2.2.bn3.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer2.2.bn3.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer2.2.bn3.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer2.2.bn3.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+22 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.22.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.22.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.22.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.22.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.22.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+23 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.11.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+24 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.15.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.15.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.15.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.15.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.15.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+25 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.1.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 2048, 33, 33) out_shape: (2, 2048, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=2048, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer4.1.bn3.gamma, shape=(2048,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer4.1.bn3.beta, shape=(2048,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer4.1.bn3.moving_mean, shape=(2048,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer4.1.bn3.moving_variance, shape=(2048,), dtype=Float32, requires_grad=False)>
+mut_result:True
+26 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.0.downsample.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 2048, 33, 33) out_shape: (2, 2048, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=2048, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer4.0.downsample.1.gamma, shape=(2048,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer4.0.downsample.1.beta, shape=(2048,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer4.0.downsample.1.moving_mean, shape=(2048,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer4.0.downsample.1.moving_variance, shape=(2048,), dtype=Float32, requires_grad=False)>
+Failed to set layer: resnet.layer4.0.downsample.1!
+list index out of range
+mut_result:LC set layers failure!
+27 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer1.0.conv1 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 64, 129, 129) out_shape: (2, 64, 129, 129)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=64, output_channels=64, kernel_size=(1, 1), stride=(1, 1), pad_mode=same, padding=0, dilation=(1, 1), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+28 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.17.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=256, output_channels=256, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=2, dilation=(2, 2), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+29 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.21.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.21.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.21.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.21.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.21.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+30 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.7.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.7.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.7.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.7.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.7.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+31 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.14.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.14.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.14.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.14.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.14.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+32 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.1.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=256, output_channels=256, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=2, dilation=(2, 2), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+33 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.3.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+34 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.14.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=256, output_channels=256, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=2, dilation=(2, 2), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+35 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.19.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=256, output_channels=256, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=2, dilation=(2, 2), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+36 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.2.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 2048, 33, 33) out_shape: (2, 2048, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=2048, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer4.2.bn3.gamma, shape=(2048,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer4.2.bn3.beta, shape=(2048,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer4.2.bn3.moving_mean, shape=(2048,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer4.2.bn3.moving_variance, shape=(2048,), dtype=Float32, requires_grad=False)>
+mut_result:True
+37 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.18.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.18.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.18.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.18.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.18.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+38 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.6.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.6.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.6.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.6.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.6.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+39 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.8.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+40 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.2.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 512, 65, 65) out_shape: (2, 512, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+41 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.2.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 33, 33) out_shape: (2, 512, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer4.2.bn1.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer4.2.bn1.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer4.2.bn1.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer4.2.bn1.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+42 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.1.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 2048, 33, 33) out_shape: (2, 2048, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+43 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.4.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.4.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.4.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.4.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.4.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+44 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.7.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.7.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.7.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.7.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.7.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+45 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.1.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 128, 65, 65) out_shape: (2, 128, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=128, output_channels=128, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=1, dilation=(1, 1), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+46 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.15.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=256, output_channels=256, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=2, dilation=(2, 2), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+47 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.0.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 33, 33) out_shape: (2, 512, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer4.0.bn2.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer4.0.bn2.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer4.0.bn2.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer4.0.bn2.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+48 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.21.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.21.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.21.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.21.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.21.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+49 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.0.downsample.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.0.downsample.1.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.0.downsample.1.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.0.downsample.1.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.0.downsample.1.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+Failed to set layer: resnet.layer3.0.downsample.1!
+list index out of range
+mut_result:LC set layers failure!
+50 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.2.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.2.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.2.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.2.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.2.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+51 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.11.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.11.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.11.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.11.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.11.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+52 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.4.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.4.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.4.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.4.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.4.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+53 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.17.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+54 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.0.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 128, 129, 129) out_shape: (2, 128, 129, 129)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=128, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer2.0.bn1.gamma, shape=(128,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer2.0.bn1.beta, shape=(128,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer2.0.bn1.moving_mean, shape=(128,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer2.0.bn1.moving_variance, shape=(128,), dtype=Float32, requires_grad=False)>
+mut_result:True
+55 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.12.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+56 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer1.2.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 129, 129) out_shape: (2, 256, 129, 129)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer1.2.bn3.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer1.2.bn3.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer1.2.bn3.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer1.2.bn3.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+57 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.17.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.17.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.17.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.17.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.17.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+58 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.16.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+59 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer1.1.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 256, 129, 129) out_shape: (2, 256, 129, 129)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+60 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.22.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+61 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.19.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.19.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.19.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.19.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.19.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+62 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.3.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=256, output_channels=256, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=2, dilation=(2, 2), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+63 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.20.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.20.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.20.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.20.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.20.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+64 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.17.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.17.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.17.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.17.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.17.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+65 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.8.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.8.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.8.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.8.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.8.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+66 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.1.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.1.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.1.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.1.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.1.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+67 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.14.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+68 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer1.1.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 64, 129, 129) out_shape: (2, 64, 129, 129)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=64, output_channels=64, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=1, dilation=(1, 1), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+69 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.0.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 65, 65) out_shape: (2, 256, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.0.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.0.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.0.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.0.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+70 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.2.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 128, 65, 65) out_shape: (2, 128, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=128, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer2.2.bn2.gamma, shape=(128,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer2.2.bn2.beta, shape=(128,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer2.2.bn2.moving_mean, shape=(128,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer2.2.bn2.moving_variance, shape=(128,), dtype=Float32, requires_grad=False)>
+mut_result:True
+71 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.22.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=256, output_channels=256, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=2, dilation=(2, 2), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+72 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.0.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 128, 65, 65) out_shape: (2, 128, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=128, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer2.0.bn2.gamma, shape=(128,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer2.0.bn2.beta, shape=(128,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer2.0.bn2.moving_mean, shape=(128,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer2.0.bn2.moving_variance, shape=(128,), dtype=Float32, requires_grad=False)>
+mut_result:True
+73 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.13.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.13.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.13.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.13.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.13.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+74 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.2.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 512, 33, 33) out_shape: (2, 512, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=512, output_channels=512, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=16, dilation=(16, 16), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+75 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.10.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.10.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.10.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.10.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.10.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+76 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.19.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+77 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.0.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 33, 33) out_shape: (2, 512, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer4.0.bn1.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer4.0.bn1.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer4.0.bn1.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer4.0.bn1.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+78 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.9.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.9.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.9.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.9.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.9.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+79 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer1.2.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 64, 129, 129) out_shape: (2, 64, 129, 129)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=64, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer1.2.bn2.gamma, shape=(64,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer1.2.bn2.beta, shape=(64,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer1.2.bn2.moving_mean, shape=(64,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer1.2.bn2.moving_variance, shape=(64,), dtype=Float32, requires_grad=False)>
+mut_result:True
+80 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer1.0.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 64, 129, 129) out_shape: (2, 64, 129, 129)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=64, output_channels=64, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=1, dilation=(1, 1), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+81 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.2.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 128, 65, 65) out_shape: (2, 128, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=128, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer2.2.bn1.gamma, shape=(128,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer2.2.bn1.beta, shape=(128,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer2.2.bn1.moving_mean, shape=(128,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer2.2.bn1.moving_variance, shape=(128,), dtype=Float32, requires_grad=False)>
+mut_result:True
+82 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.3.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 512, 65, 65) out_shape: (2, 512, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=512, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer2.3.bn3.gamma, shape=(512,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer2.3.bn3.beta, shape=(512,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer2.3.bn3.moving_mean, shape=(512,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer2.3.bn3.moving_variance, shape=(512,), dtype=Float32, requires_grad=False)>
+mut_result:True
+83 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.6.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.6.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.6.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.6.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.6.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+84 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.12.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.12.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.12.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.12.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.12.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+85 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.15.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.15.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.15.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.15.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.15.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+86 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.2.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+87 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.3.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 128, 65, 65) out_shape: (2, 128, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=128, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer2.3.bn1.gamma, shape=(128,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer2.3.bn1.beta, shape=(128,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer2.3.bn1.moving_mean, shape=(128,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer2.3.bn1.moving_variance, shape=(128,), dtype=Float32, requires_grad=False)>
+mut_result:True
+88 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.0.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 2048, 33, 33) out_shape: (2, 2048, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+89 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.10.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.10.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.10.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.10.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.10.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+90 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.2.bn3 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=1024, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.2.bn3.gamma, shape=(1024,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.2.bn3.beta, shape=(1024,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.2.bn3.moving_mean, shape=(1024,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.2.bn3.moving_variance, shape=(1024,), dtype=Float32, requires_grad=False)>
+mut_result:True
+91 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.4.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=256, output_channels=256, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=2, dilation=(2, 2), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+92 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.9.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 1024, 33, 33) out_shape: (2, 1024, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+93 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.8.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.8.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.8.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.8.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.8.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+94 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 64, 257, 257) out_shape: (2, 64, 257, 257)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=64, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.bn1.gamma, shape=(64,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.bn1.beta, shape=(64,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.bn1.moving_mean, shape=(64,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.bn1.moving_variance, shape=(64,), dtype=Float32, requires_grad=False)>
+mut_result:True
+95 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.16.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=256, output_channels=256, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=2, dilation=(2, 2), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+96 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.11.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=256, output_channels=256, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=2, dilation=(2, 2), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+97 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer3.3.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer3.3.bn2.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer3.3.bn2.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer3.3.bn2.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer3.3.bn2.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+98 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer4.0.conv2 layer_type: <class 'mindspore.nn.layer.conv.Conv2d'> in_shape: (2, 512, 33, 33) out_shape: (2, 512, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: Conv2d<input_channels=512, output_channels=512, kernel_size=(3, 3), stride=(1, 1), pad_mode=pad, padding=4, dilation=(4, 4), group=1, has_bias=False, weight_init=xavier_uniform, bias_init=None, format=NCHW>
+mut_result:True
+99 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: resnet.layer2.1.bn2 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 128, 65, 65) out_shape: (2, 128, 65, 65)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=128, eps=1e-05, momentum=0.9, gamma=Parameter (name=resnet.layer2.1.bn2.gamma, shape=(128,), dtype=Float32, requires_grad=True), beta=Parameter (name=resnet.layer2.1.bn2.beta, shape=(128,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=resnet.layer2.1.bn2.moving_mean, shape=(128,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=resnet.layer2.1.bn2.moving_variance, shape=(128,), dtype=Float32, requires_grad=False)>
+mut_result:True
+100 generation!
+

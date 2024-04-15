@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LS,"layers.12,layers.11",True
+PM,"[2, 64, 222, 222]",True
+NS,classifier.6,True
+AFRM,layers.2,True
+RA,layers.36,True
+DM,layers.19,True
+SM,layers.14,True
+GF,classifier.6,True
+DM,classifier.0,True
+LS,"layers.21,layers.22",True
+WS,layers.20,True
+NS,layers.24,True
+NEB,layers.3,True
+RA,layers.5,True
+DM,layers.21,True
+NS,classifier.6,True
+LC,classifier.2,True
+DM,layers.21,True
+GF,layers.0,True
+DM,classifier.3,True
+WS,layers.27,True
+NS,layers.14,True
+LA,no,LA Create illegal layer
+PM,"[2, 256, 47, 47]",True
+LA,layers.22,True
+NS,layers.34,True
+NS,layers.24,True
+DM,layers.29,True
+AFRM,layers.5,True
+LA,layers.38,True
+PM,"[2, 64, 220, 220]",True
+LA,layers.25,True
+LA,layers.21,True
+LA,layers.15,True
+WS,layers.0,True
+GF,layers.18,True
+NS,layers.22,True
+SM,layers.23,True
+LC,layers.11,True
+LA,layers.41,True
+NS,layers.14,True
+NEB,layers.3,True
+NEB,layers.3,True
+RA,layers.9,True
+NEB,layers.3,True
+LD,classifier.2,True
+AFRM,classifier.1,True
+RA,layers.36,True
+LS,"layers.32,layers.31",True
+SM,classifier.3,True
+LS,"layers.15,layers.16",True
+NAI,classifier.0,True
+LS,"layers.38,layers.39",True
+AFRM,layers.38,True
+SM,layers.11,True
+NAI,layers.27,True
+NEB,layers.3,True
+NAI,layers.7,True
+LC,layers.16,True
+LA,no,LA Create illegal layer
+NEB,layers.3,True
+DM,layers.9,True
+RA,layers.15,True
+NAI,classifier.0,True
+LC,classifier.4,True
+WS,no,no suitable layer
+LC,layers.39,True
+DM,layers.42,True
+LS,"classifier.3,classifier.5",True
+LD,layers.35,True
+LS,"layers.9,layers.8",True
+LD,layers.16,True
+RA,layers.15,True
+GF,layers.6,True
+PM,"[2, 256, 49, 49]",True
+NEB,layers.3,True
+DM,no,DM Create illegal layer
+PM,"[2, 512, 19, 19]",True
+DM,no,DM Create illegal layer
+AFRM,layers.15,True
+WS,layers.7,True
+NAI,classifier.0,True
+LD,layers.41,True
+LS,"classifier.3,classifier.5",True
+NEB,layers.3,True
+NS,layers.17,True
+NAI,layers.34,True
+NS,layers.40,True
+PM,"[2, 512, 19, 19]",True
+LD,layers.22,True
+NAI,layers.37,True
+RA,layers.36,True
+LS,"layers.19,layers.18",True
+NS,layers.40,True
+GF,classifier.0,True
+SM,layers.28,True
+WS,no,no suitable layer
+LA,layers.26,True
+LA,no,LA Create illegal layer
+PM,"[2, 256, 49, 49]",True

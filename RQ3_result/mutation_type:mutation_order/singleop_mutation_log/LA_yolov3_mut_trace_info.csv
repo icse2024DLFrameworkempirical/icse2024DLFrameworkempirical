@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer2.0.conv2.2,True
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer4.6.conv2.2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer5.2.conv2.2,True
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer3.7.conv2.2,True
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer4.3.conv2.2,True
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,feature_map.backbone.conv3.2,True
+LA,feature_map.backbone.layer5.1.conv1.2,True
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,feature_map.backbone.layer3.1.conv1.2,True
+LA,no,LA Create illegal layer
+LA,feature_map.backbone.layer3.7.conv2.2,True
+LA,feature_map.backbone.layer3.2.conv2.2,True
+LA,feature_map.backbone.layer3.4.conv2.2,True
+LA,feature_map.backbone.layer3.4.conv1.2,True
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,feature_map.backbone.layer4.4.conv1.2,True
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer2.1.conv2.2,True
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,feature_map.backbone.layer5.1.conv1.2,True
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer3.1.conv2.2,True
+LA,no,LA set layers failure
+LA,feature_map.backbone.conv4.2,True
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer4.0.conv1.2,True
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer5.1.conv1.2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,feature_map.backbone.layer5.0.conv2.2,True
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,feature_map.backbone.conv0.2,True
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,feature_map.backbone.conv2.2,True
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer3.1.conv1.2,True
+LA,feature_map.backbone.conv4.2,True
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer5.3.conv2.2,True
+LA,no,LA set layers failure
+LA,no,LA Create illegal layer
+LA,feature_map.backbone.layer4.7.conv2.2,True
+LA,no,LA Create illegal layer
+LA,no,LA set layers failure
+LA,feature_map.backbone.layer5.1.conv1.2,True
+LA,feature_map.backbone.conv0.2,True
+LA,no,LA set layers failure
+LA,no,LA set layers failure

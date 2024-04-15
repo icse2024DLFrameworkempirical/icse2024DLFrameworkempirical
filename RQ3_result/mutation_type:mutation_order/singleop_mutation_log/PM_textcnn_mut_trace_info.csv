@@ -1,0 +1,11 @@
+mut_types,mut_layer_name,mut_result
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,"[2, 96, 49, 3]",True
+PM,"[2, 288]",True
+PM,"[2, 96, 3, 3]",True
+PM,"[2, 96, 49, 3]",True
+PM,"[2, 288]",True
+PM,"[2, 96, 3, 3]",True
+PM,"[2, 96, 3, 3]",True
+PM,no,Parameter Miss

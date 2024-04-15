@@ -1,0 +1,11 @@
+mut_types,mut_layer_name,mut_result
+LA,no,LA Create illegal layer
+LA,layer3.1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,drop,True
+LA,layer2.1,True
+LA,layer3.1,True
+LA,no,LA Create illegal layer
+LA,drop,True
+LA,no,LA Create illegal layer

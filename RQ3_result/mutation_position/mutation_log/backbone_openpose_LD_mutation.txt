@@ -1,0 +1,262 @@
+Adopt LD mut_strategy!
+delete layer_name:base.vgg_base.layers.21
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+1 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:base.vgg_base.layers.12
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+2 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:base.vgg_base.layers.7
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+3 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:base.vgg_base.layers.14
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+4 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:base.vgg_base.layers.2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+5 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:base.vgg_base.layers.16
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+6 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+7 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+8 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+9 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+10 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+11 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+12 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+13 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+14 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+15 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+16 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+17 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+18 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+19 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+20 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+21 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+22 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+23 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+24 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+25 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+26 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+27 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+28 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+29 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+30 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+31 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+32 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+33 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+34 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+35 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+36 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+37 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+38 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+39 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+40 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+41 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+42 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+43 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+44 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+45 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+46 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+47 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+48 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+49 generation!
+
+Adopt LD mut_strategy!
+No suitable ops for LD mutation!
+mut_result:No suitable ops for LD mutation!
+50 generation!
+

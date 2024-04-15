@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LS,"stage_2.relu,stage_6.conv5_L1",True
+PM,no,Parameter Miss
+NS,stage_2.conv3_L1,True
+AFRM,stage_5.relu,True
+RA,stage_1.relu,True
+DM,base.vgg_base.layers.22,True
+SM,stage_2.relu,True
+GF,stage_2.conv6_L1,True
+DM,stage_6.conv5_L1,True
+LS,"base.vgg_base.layers.13,base.vgg_base.layers.12",True
+WS,stage_5.conv4_L2,True
+NS,base.vgg_base.layers.0,True
+NEB,stage_2.conv5_L2,True
+RA,base.vgg_base.layers.6,True
+DM,base.vgg_base.layers.1,True
+NS,base.vgg_base.layers.0,True
+LC,base.vgg_base.layers.20,True
+DM,stage_4.relu,True
+GF,base.vgg_base.layers.6,True
+DM,stage_6.relu,True
+WS,stage_1.conv2_CPM_L1,True
+NS,stage_5.conv1_L2,True
+LA,stage_2.conv6_L1,True
+PM,no,Parameter Miss
+LA,no,LA Create illegal layer
+NS,stage_4.conv2_L1,True
+NS,stage_1.conv2_CPM_L1,True
+DM,stage_3.relu,True
+AFRM,base.vgg_base.layers.11,True
+LA,no,LA Create illegal layer
+PM,no,Parameter Miss
+LA,no,LA Create illegal layer
+LA,stage_3.conv2_L2,True
+LA,stage_2.relu,True
+WS,stage_1.conv1_CPM_L2,True
+GF,stage_4.conv4_L2,True
+NS,stage_4.conv5_L2,True
+SM,stage_1.conv5_CPM_L2,True
+LC,stage_5.conv2_L1,True
+LA,no,LA Create illegal layer
+NS,stage_1.conv5_CPM_L2,True
+NEB,stage_2.conv5_L2,True
+NEB,stage_2.conv5_L2,True
+RA,base.vgg_base.layers.3,True
+NEB,stage_2.conv5_L2,True
+LD,stage_4.conv4_L1,True
+AFRM,base.vgg_base.layers.8,True
+RA,base.vgg_base.layers.17,True
+LS,"stage_4.conv4_L2,stage_2.relu",True
+SM,stage_3.conv1_L1,True
+LS,"base.vgg_base.layers.15,base.vgg_base.layers.16",True
+NAI,stage_5.conv1_L1,True
+LS,"base.vgg_base.layers.22,base.vgg_base.layers.21",True
+AFRM,base.vgg_base.layers.3,True
+SM,no,SM set layers failure
+NAI,stage_2.conv3_L2,True
+NEB,base.vgg_base.layers.22,True
+NAI,stage_5.conv3_L2,True
+LC,stage_5.conv6_L1,True
+LA,no,LA Create illegal layer
+NEB,base.vgg_base.layers.22,True
+DM,stage_6.conv5_L1,True
+RA,base.vgg_base.layers.16,True
+NAI,base.vgg_base.layers.13,True
+LC,base.vgg_base.layers.7,True
+WS,no,no suitable layer
+LC,stage_1.conv1_CPM_L1,True
+DM,no,False
+LS,"stage_6.conv6_L1,stage_2.conv6_L1",True
+LD,stage_2.conv4_L1,True
+LS,"base.vgg_base.layers.16,base.vgg_base.layers.14",True
+LD,stage_6.conv6_L2,True
+RA,base.vgg_base.layers.6,True
+GF,stage_3.conv3_L2,True
+PM,no,Parameter Miss
+NEB,base.vgg_base.layers.22,True
+DM,stage_3.relu,True
+PM,no,Parameter Miss
+DM,stage_3.relu,True
+AFRM,base.vgg_base.layers.6,True
+WS,stage_6.conv7_L2,True
+NAI,stage_5.conv6_L1,True
+LD,stage_5.conv4_L1,True
+LS,"stage_3.conv6_L1,stage_6.relu",True
+NEB,base.vgg_base.layers.22,True
+NS,stage_6.conv2_L1,True
+NAI,stage_3.conv3_L1,True
+NS,stage_4.conv5_L1,True
+PM,no,Parameter Miss
+LD,base.vgg_base.layers.7,True
+NAI,stage_3.conv5_L1,True
+RA,base.vgg_base.layers.17,True
+LS,"stage_1.conv2_CPM_L2,stage_4.conv4_L2",True
+NS,stage_5.conv3_L1,True
+GF,stage_6.conv5_L1,True
+SM,stage_3.conv4_L2,True
+WS,stage_6.conv1_L2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+PM,"[2, 128, 46, 46]",True

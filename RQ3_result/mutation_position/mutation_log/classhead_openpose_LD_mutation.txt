@@ -1,0 +1,350 @@
+Adopt LD mut_strategy!
+delete layer_name:stage_5.conv6_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+1 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_6.conv3_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+2 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_5.conv3_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+3 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_6.conv3_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+4 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_6.conv2_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+5 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_1.conv1_CPM_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+6 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_6.conv6_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+7 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_1.conv2_CPM_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+8 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_4.conv5_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+9 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_5.conv2_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+10 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_3.conv6_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+11 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_5.conv5_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+12 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_2.conv4_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+13 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_6.conv5_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+14 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_3.conv5_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+15 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_6.conv6_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+16 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_4.conv4_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+17 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_4.conv3_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+18 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_2.conv4_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+19 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_4.conv2_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+20 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_2.conv3_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+21 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_1.conv3_CPM_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+22 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_4.conv4_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+23 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_2.conv2_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+24 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_5.conv4_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+25 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_5.conv2_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+26 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_3.conv2_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+27 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_2.conv5_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+28 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_3.conv5_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+29 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_5.conv4_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+30 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_5.conv3_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+31 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_3.conv3_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+32 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_6.conv2_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+33 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_3.conv3_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+34 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_4.conv2_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+35 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_6.conv4_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+36 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_3.conv4_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+37 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_5.conv5_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+38 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_3.conv2_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+39 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_2.conv3_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+40 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_2.conv6_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+41 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_2.conv2_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+42 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_4.conv6_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+43 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_2.conv6_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+44 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_4.conv5_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+45 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_4.conv3_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+46 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_5.conv6_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+47 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_6.conv4_L1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+48 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_2.conv5_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+49 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:stage_6.conv5_L2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+50 generation!
+

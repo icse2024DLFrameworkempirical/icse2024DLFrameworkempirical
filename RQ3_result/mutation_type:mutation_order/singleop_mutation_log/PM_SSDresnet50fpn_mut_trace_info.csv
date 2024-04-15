@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+PM,"[2, 1024, 40, 40]",True
+PM,"[2, 256, 80, 80]",True
+PM,"[2, 256, 80, 80]",True
+PM,no,Parameter Miss
+PM,"[2, 512, 20, 20]",True
+PM,"[2, 64, 160, 160]",True
+PM,no,Parameter Miss
+PM,"[2, 2048, 20, 20]",True
+PM,"[2, 512, 80, 80]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 512, 20, 20]",True
+PM,no,Parameter Miss
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 256, 40, 40]",True
+PM,no,Parameter Miss
+PM,"[2, 512, 80, 80]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 256, 160, 160]",True
+PM,"[2, 1024, 40, 40]",True
+PM,"[2, 512, 80, 80]",True
+PM,"[2, 256, 160, 160]",True
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 64, 160, 160]",True
+PM,no,Parameter Miss
+PM,"[2, 128, 80, 80]",True
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 256, 160, 160]",True
+PM,"[2, 128, 80, 80]",True
+PM,"[2, 128, 80, 80]",True
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 512, 20, 20]",True
+PM,no,Parameter Miss
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 64, 160, 160]",True
+PM,no,Parameter Miss
+PM,"[2, 128, 80, 80]",True
+PM,"[2, 1024, 40, 40]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 128, 80, 80]",True
+PM,"[2, 128, 80, 80]",True
+PM,no,Parameter Miss
+PM,"[2, 1024, 40, 40]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 2048, 20, 20]",True
+PM,"[2, 256, 160, 160]",True
+PM,"[2, 256, 160, 160]",True
+PM,"[2, 2048, 20, 20]",True
+PM,"[2, 128, 80, 80]",True
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 512, 80, 80]",True
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 1024, 40, 40]",True
+PM,"[2, 1024, 40, 40]",True
+PM,no,Parameter Miss
+PM,"[2, 128, 80, 80]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 1024, 40, 40]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 512, 80, 80]",True
+PM,no,Parameter Miss
+PM,"[2, 64, 320, 320]",True
+PM,no,Parameter Miss
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 128, 80, 80]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 512, 20, 20]",True
+PM,"[2, 512, 80, 80]",True
+PM,"[2, 256, 160, 160]",True
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 256, 160, 160]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 512, 80, 80]",True
+PM,no,Parameter Miss
+PM,"[2, 128, 160, 160]",True
+PM,"[2, 512, 80, 80]",True
+PM,"[2, 1024, 40, 40]",True
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 512, 80, 80]",True
+PM,"[2, 256, 160, 160]",True
+PM,"[2, 512, 40, 40]",True
+PM,no,Parameter Miss
+PM,"[2, 64, 160, 160]",True
+PM,no,Parameter Miss
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 512, 80, 80]",True
+PM,"[2, 256, 40, 40]",True
+PM,"[2, 256, 40, 40]",True
+PM,no,Parameter Miss
+PM,"[2, 1024, 40, 40]",True
+PM,"[2, 64, 160, 160]",True
+PM,"[2, 256, 40, 40]",True

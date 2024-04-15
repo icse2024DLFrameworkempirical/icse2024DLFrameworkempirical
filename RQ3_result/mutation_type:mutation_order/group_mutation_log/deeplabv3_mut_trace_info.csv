@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LS,"aspp.bn1,aspp.relu",True
+PM,"[2, 256, 33, 33]",True
+NS,aspp.aspp3.aspp_conv.0,True
+AFRM,aspp.aspp1.aspp_conv.2,True
+RA,aspp.aspp2.aspp_conv.2,True
+DM,no,False
+SM,no,False
+GF,aspp.aspp1.aspp_conv.0,True
+DM,no,False
+LS,"aspp.aspp_pooling.conv.1,aspp.aspp_pooling.conv.2",True
+WS,aspp.aspp4.aspp_conv.0,True
+NS,aspp.aspp4.aspp_conv.0,True
+NEB,aspp.conv2,True
+RA,aspp.aspp4.aspp_conv.2,True
+DM,no,False
+NS,aspp.conv1,True
+LC,aspp.bn1,True
+DM,aspp.bn1,True
+GF,aspp.aspp1.aspp_conv.2,True
+DM,aspp.bn1,True
+WS,aspp.aspp3.aspp_conv.0,True
+NS,aspp.aspp3.aspp_conv.0,True
+LA,aspp.bn1,True
+PM,"[2, 256, 33, 33]",True
+LA,no,LA set layers failure
+NS,aspp.conv1,True
+NS,aspp.aspp4.aspp_conv.0,True
+DM,no,False
+AFRM,aspp.aspp3.aspp_conv.2,True
+LA,aspp.relu,True
+PM,"[2, 256, 33, 33]",True
+LA,no,LA Create illegal layer
+LA,aspp.aspp_pooling.conv.1,True
+LA,no,LA Create illegal layer
+WS,no,no suitable layer
+GF,aspp.relu,True
+NS,aspp.aspp2.aspp_conv.0,True
+SM,no,False
+LC,aspp.aspp1.aspp_conv.2,True
+LA,aspp.aspp4.aspp_conv.2,True
+NS,aspp.aspp_pooling.conv.0,True
+NEB,aspp.conv2,True
+NEB,aspp.conv2,True
+RA,aspp.aspp2.aspp_conv.2,True
+NEB,aspp.conv2,True
+LD,aspp.aspp4.aspp_conv.2,True
+AFRM,aspp.aspp2.aspp_conv.2,True
+RA,no,False
+LS,"aspp.aspp2.aspp_conv.2,aspp.aspp1.aspp_conv.1",True
+SM,no,SM set layers failure
+LS,"aspp.relu,aspp.aspp2.aspp_conv.2",True
+NAI,aspp.aspp4.aspp_conv.0,True
+LS,"aspp.relu,aspp.aspp4.aspp_conv.2",True
+AFRM,no,AFRM No suitable ops for
+SM,no,False
+NAI,aspp.aspp_pooling.conv.0,True
+NEB,aspp.conv2,True
+NAI,aspp.aspp2.aspp_conv.2,True
+LC,no,LC set layers failure
+LA,no,LA Create illegal layer
+NEB,aspp.conv2,True
+DM,aspp.bn1,True
+RA,no,False
+NAI,aspp.conv1,True
+LC,no,LC set layers failure
+WS,aspp.aspp_pooling.conv.0,True
+LC,aspp.aspp3.aspp_conv.2,True
+DM,aspp.bn1,True
+LS,"aspp.aspp_pooling.conv.1,aspp.aspp_pooling.conv.2",True
+LD,aspp.aspp2.aspp_conv.1,True
+LS,"aspp.aspp4.aspp_conv.2,aspp.aspp1.aspp_conv.2",True
+LD,aspp.aspp3.aspp_conv.2,True
+RA,no,False
+GF,aspp.conv2,True
+PM,"[2, 256, 33, 33]",True
+NEB,aspp.conv2,True
+DM,no,DM Create illegal layer
+PM,"[2, 256, 33, 33]",True
+DM,no,DM Create illegal layer
+AFRM,no,AFRM No suitable ops for
+WS,aspp.aspp4.aspp_conv.0,True
+NAI,aspp.conv2,True
+LD,aspp.aspp4.aspp_conv.2,True
+LS,"aspp.aspp1.aspp_conv.2,aspp.aspp1.aspp_conv.1",True
+NEB,aspp.conv2,True
+NS,aspp.aspp4.aspp_conv.0,True
+NAI,aspp.aspp2.aspp_conv.2,True
+NS,aspp.aspp4.aspp_conv.0,True
+PM,"[2, 256, 33, 33]",True
+LD,aspp.aspp_pooling.conv.2,True
+NAI,aspp.aspp3.aspp_conv.0,True
+RA,no,False
+LS,no,set layers failure
+NS,aspp.aspp2.aspp_conv.0,True
+GF,aspp.aspp_pooling.conv.1,True
+SM,no,False
+WS,aspp.conv1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+PM,"[2, 256, 33, 33]",True

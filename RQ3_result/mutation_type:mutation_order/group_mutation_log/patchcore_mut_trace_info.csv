@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LS,no,set layers failure
+PM,"[2, 128, 56, 56]",True
+NS,layer1.2.conv2,True
+AFRM,layer2.1.relu,True
+RA,layer1.1.relu,True
+DM,no,False
+SM,layer2.1.conv3,True
+GF,layer3.0.bn3,True
+DM,no,False
+LS,no,False
+WS,conv1,True
+NS,layer3.3.conv3,True
+NEB,layer2.3.conv1,True
+RA,layer1.2.relu,True
+DM,relu,True
+NS,layer1.0.conv2,True
+LC,layer2.0.bn3,True
+DM,no,False
+GF,layer2.3.relu,True
+DM,no,False
+WS,layer3.0.downsample.0,True
+NS,layer3.4.conv1,True
+LA,no,LA Create illegal layer
+PM,"[2, 256, 56, 56]",True
+LA,layer3.2.bn3,True
+NS,layer3.5.conv2,True
+NS,layer2.0.conv1,True
+DM,no,False
+AFRM,layer1.0.relu,True
+LA,layer3.1.bn2,True
+PM,"[2, 256, 56, 56]",True
+LA,layer2.2.bn3,True
+LA,layer2.3.bn1,True
+LA,layer3.5.bn1,True
+WS,layer1.1.conv2,True
+GF,layer2.2.conv1,True
+NS,layer2.2.conv2,True
+SM,layer2.0.bn1,True
+LC,layer2.1.relu,True
+LA,no,LA Create illegal layer
+NS,layer3.1.bn2,True
+NEB,layer2.3.conv1,True
+NEB,layer2.3.conv1,True
+RA,layer3.0.relu,True
+NEB,layer2.3.conv1,True
+LD,layer1.2.bn3,True
+AFRM,layer3.3.relu,True
+RA,layer2.2.relu,True
+LS,"layer3.3.conv2,layer3.4.bn1",True
+SM,layer2.3.conv2,True
+LS,no,set layers failure
+NAI,layer3.0.conv3,True
+LS,"layer2.0.bn3,layer3.0.bn1",True
+AFRM,layer2.3.relu,True
+SM,layer2.1.conv1,True
+NAI,layer2.0.downsample.0,True
+NEB,layer2.3.conv1,True
+NAI,layer3.4.conv1,True
+LC,layer3.4.conv2,True
+LA,no,LA Create illegal layer
+NEB,layer2.3.conv1,True
+DM,no,False
+RA,layer1.1.relu,True
+NAI,layer2.1.conv2,True
+LC,layer2.1.bn3,True
+WS,no,no suitable layer
+LC,layer2.3.bn2,True
+DM,no,False
+LS,no,False
+LD,layer2.2.bn2,True
+LS,"layer3.2.conv2,layer3.5.bn2",True
+LD,layer3.0.conv1,True
+RA,layer3.4.relu,True
+GF,layer3.2.conv1,True
+PM,"[2, 512, 28, 28]",True
+NEB,layer2.3.conv1,True
+DM,no,DM Create illegal layer
+PM,"[2, 128, 56, 56]",True
+DM,no,False
+AFRM,layer3.1.relu,True
+WS,layer3.3.conv1,True
+NAI,layer3.0.conv3,True
+LD,layer3.1.conv2,True
+LS,"layer2.1.conv1,layer2.3.conv1",True
+NEB,layer2.1.conv1,True
+NS,layer2.0.downsample.0,True
+NAI,layer3.4.conv2,True
+NS,layer1.1.conv3,True
+PM,"[2, 1024, 14, 14]",True
+LD,layer1.0.conv2,True
+NAI,layer3.5.conv1,True
+RA,layer2.0.relu,True
+LS,"layer2.3.conv2,layer2.1.bn1",True
+NS,layer1.0.conv3,True
+GF,layer2.0.bn3,True
+SM,layer1.0.bn2,True
+WS,layer1.2.conv1,True
+LA,layer3.2.bn1,True
+LA,no,LA Create illegal layer
+PM,"[2, 256, 56, 56]",True

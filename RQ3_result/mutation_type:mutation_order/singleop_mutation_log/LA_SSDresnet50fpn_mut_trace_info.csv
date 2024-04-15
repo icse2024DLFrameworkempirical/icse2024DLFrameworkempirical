@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LA,network.layer4.0.relu,True
+LA,network.layer2.1.bn2,True
+LA,network.layer3.3.bn1,True
+LA,network.layer1.1.bn1,True
+LA,network.layer3.3.conv2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,network.layer3.3.conv2,True
+LA,network.layer3.4.conv2,True
+LA,network.layer3.5.bn3,True
+LA,network.layer4.0.bn2,True
+LA,no,LA Create illegal layer
+LA,network.layer3.5.bn2,True
+LA,no,LA set layers failure
+LA,network.layer4.0.relu,True
+LA,no,LA Create illegal layer
+LA,network.layer3.4.bn1,True
+LA,network.layer3.4.bn2,True
+LA,no,LA Create illegal layer
+LA,network.layer4.2.bn1,True
+LA,network.layer1.1.relu,True
+LA,network.layer2.3.bn1,True
+LA,network.layer1.1.bn2,True
+LA,network.layer2.0.bn3,True
+LA,no,LA Create illegal layer
+LA,network.layer1.0.bn2,True
+LA,network.layer3.0.relu,True
+LA,no,LA Create illegal layer
+LA,network.layer4.1.bn3,True
+LA,network.layer1.1.bn3,True
+LA,network.layer4.2.conv2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,network.layer4.2.bn3,True
+LA,network.layer4.0.relu,True
+LA,network.layer2.1.bn1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,network.layer1.1.bn3,True
+LA,network.layer3.0.bn1,True
+LA,no,LA Create illegal layer
+LA,network.layer4.1.bn2,True
+LA,network.layer4.0.bn3,True
+LA,network.layer2.1.bn3,True
+LA,no,LA Create illegal layer
+LA,network.layer3.0.bn2,True
+LA,network.layer4.0.bn1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,network.layer3.1.bn1,True
+LA,network.layer3.2.bn3,True
+LA,network.layer1.2.bn3,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,network.layer1.2.bn3,True
+LA,network.layer4.2.bn3,True
+LA,network.layer1.2.bn1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,network.layer2.3.relu,True
+LA,network.layer2.2.conv2,True
+LA,no,LA Create illegal layer
+LA,network.layer3.3.bn3,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,network.layer4.1.bn2,True
+LA,network.layer4.1.bn1,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,network.layer2.1.relu,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,network.layer3.4.bn2,True
+LA,no,LA Create illegal layer
+LA,network.layer4.0.bn3,True
+LA,network.layer4.0.bn2,True
+LA,network.layer3.3.bn3,True
+LA,network.layer3.2.bn3,True
+LA,network.layer2.2.bn2,True
+LA,network.layer2.1.relu,True
+LA,network.layer1.2.bn2,True
+LA,no,LA Create illegal layer
+LA,network.layer3.0.relu,True
+LA,network.layer3.1.bn2,True
+LA,no,LA Create illegal layer
+LA,network.layer3.5.conv2,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,network.layer3.0.relu,True
+LA,no,LA Create illegal layer
+LA,no,LA Create illegal layer
+LA,network.layer2.3.conv2,True
+LA,network.layer1.2.bn2,True
+LA,network.bn1,True
+LA,network.layer3.3.bn2,True

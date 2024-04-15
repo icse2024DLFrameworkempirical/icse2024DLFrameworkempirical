@@ -1,0 +1,1086 @@
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+1 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.relu layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+2 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+3 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+4 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+5 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+6 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+7 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+8 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+9 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+10 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+11 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.2 layer_type: <class 'mindspore.nn.layer.activation.ReLU'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: ReLU<>
+mut_result:True
+12 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+13 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+14 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+15 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+16 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+17 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+18 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+19 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+20 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+21 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+22 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.bn1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.bn1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.bn1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.bn1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.bn1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+mut_result:True
+23 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+24 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+25 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+26 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+27 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+28 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+29 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+30 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+31 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+32 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+33 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+34 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+35 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+36 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+37 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+38 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+39 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+40 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+41 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+42 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+43 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+44 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+45 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+46 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+47 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+48 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+49 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+50 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+51 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+52 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+53 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+54 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+55 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+56 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+57 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+58 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+59 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+60 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+61 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+62 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+63 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+64 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+65 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+66 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+67 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+68 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+69 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+70 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+71 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+72 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+73 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+74 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+75 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+76 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+77 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+78 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+79 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+80 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+81 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+82 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+83 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+84 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+85 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp3.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp3.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp3.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp3.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp3.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp3.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+86 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+87 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+88 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+89 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+90 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+91 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+92 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+93 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp_pooling.conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 1, 1) out_shape: (2, 256, 1, 1)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp_pooling.conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp_pooling.conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp_pooling.conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp_pooling.conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp_pooling.conv.1!
+list index out of range
+mut_result:LC set layers failure!
+94 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+95 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+96 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+97 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp1.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp1.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp1.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp1.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp1.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp1.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+98 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp2.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp2.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp2.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp2.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp2.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp2.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+99 generation!
+
+Adopt LC mut_strategy!
+candidate_in_mutlayers_indice:-1
+select layer: aspp.aspp4.aspp_conv.1 layer_type: <class 'mindspore.nn.layer.normalization.BatchNorm2d'> in_shape: (2, 256, 33, 33) out_shape: (2, 256, 33, 33)
+mut Basic type: True
+add Basic layer : 
+select insert layer: BatchNorm2d<num_features=256, eps=1e-05, momentum=0.9, gamma=Parameter (name=aspp.aspp4.aspp_conv.1.gamma, shape=(256,), dtype=Float32, requires_grad=True), beta=Parameter (name=aspp.aspp4.aspp_conv.1.beta, shape=(256,), dtype=Float32, requires_grad=True), moving_mean=Parameter (name=aspp.aspp4.aspp_conv.1.moving_mean, shape=(256,), dtype=Float32, requires_grad=False), moving_variance=Parameter (name=aspp.aspp4.aspp_conv.1.moving_variance, shape=(256,), dtype=Float32, requires_grad=False)>
+Failed to set layer: aspp.aspp4.aspp_conv.1!
+list index out of range
+mut_result:LC set layers failure!
+100 generation!
+

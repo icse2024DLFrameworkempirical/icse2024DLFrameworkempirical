@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LS,"decoded.11,decoded.12",True
+PM,no,Parameter Miss
+NS,decoded.16,True
+AFRM,decoded.3,True
+RA,encoded.9,True
+DM,decoded.12,True
+SM,encoded.5,True
+GF,encoded.17,True
+DM,decoded.12,True
+LS,"encoded.9,encoded.10",True
+WS,decoded.4,True
+NS,encoded.6,True
+NEB,encoded.2,True
+RA,decoded.17,True
+DM,decoded.1,True
+NS,decoded.0,True
+LC,decoded.19,True
+DM,decoded.12,True
+GF,decoded.10,True
+DM,encoded.11,True
+WS,decoded.18,True
+NS,encoded.2,True
+LA,no,LA Create illegal layer
+PM,no,Parameter Miss
+LA,no,LA Create illegal layer
+NS,decoded.8,True
+NS,decoded.18,True
+DM,encoded.15,True
+AFRM,decoded.7,True
+LA,encoded.13,True
+PM,no,Parameter Miss
+LA,decoded.11,True
+LA,no,LA Create illegal layer
+LA,encoded.17,True
+WS,decoded.4,True
+GF,decoded.10,True
+NS,encoded.18,True
+SM,encoded.5,True
+LC,encoded.6,True
+LA,no,LA Create illegal layer
+NS,decoded.10,True
+NEB,encoded.2,True
+NEB,encoded.2,True
+RA,encoded.7,True
+NEB,encoded.2,True
+LD,encoded.17,True
+AFRM,decoded.17,True
+RA,decoded.5,True
+LS,"decoded.12,decoded.13",True
+SM,no,SM Create illegal layer
+LS,"encoded.7,encoded.6",True
+NAI,encoded.13,True
+LS,"encoded.5,encoded.6",True
+AFRM,decoded.9,True
+SM,encoded.9,True
+NAI,encoded.18,True
+NEB,encoded.2,True
+NAI,encoded.18,True
+LC,encoded.10,True
+LA,decoded.5,True
+NEB,encoded.2,True
+DM,encoded.5,True
+RA,decoded.12,True
+NAI,encoded.9,True
+LC,encoded.1,True
+WS,encoded.16,True
+LC,decoded.8,True
+DM,encoded.3,True
+LS,"decoded.13,decoded.12",True
+LD,encoded.11,True
+LS,"decoded.11,decoded.13",True
+LD,encoded.9,True
+RA,decoded.11,True
+GF,decoded.14,True
+PM,no,Parameter Miss
+NEB,encoded.2,True
+DM,encoded.3,True
+PM,no,Parameter Miss
+DM,decoded.1,True
+AFRM,decoded.11,True
+WS,no,no suitable layer
+NAI,decoded.13,True
+LD,decoded.13,True
+LS,no,no suitable layer
+NEB,encoded.2,True
+NS,encoded.16,True
+NAI,decoded.14,True
+NS,decoded.18,True
+PM,no,Parameter Miss
+LD,decoded.13,True
+NAI,decoded.6,True
+RA,decoded.15,True
+LS,no,no suitable layer
+NS,decoded.0,True
+GF,decoded.1,True
+SM,encoded.2,True
+WS,decoded.0,True
+LA,encoded.10,True
+LA,no,LA Create illegal layer
+PM,"[2, 32, 32, 32]",True

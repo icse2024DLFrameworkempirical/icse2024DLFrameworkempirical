@@ -1,0 +1,11 @@
+mut_types,mut_layer_name,mut_result
+AFRM,down4.maxpool_conv.1.double_conv.1,True
+AFRM,down2.maxpool_conv.1.double_conv.3,True
+AFRM,down4.maxpool_conv.1.double_conv.3,True
+AFRM,down2.maxpool_conv.1.double_conv.1,True
+AFRM,up3.relu,True
+AFRM,up4.relu,True
+AFRM,up2.relu,True
+AFRM,up4.conv.double_conv.1,True
+AFRM,up2.conv.double_conv.3,True
+AFRM,down3.maxpool_conv.1.double_conv.3,True

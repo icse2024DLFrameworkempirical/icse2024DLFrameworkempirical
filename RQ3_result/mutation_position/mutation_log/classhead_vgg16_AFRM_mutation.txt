@@ -1,0 +1,54 @@
+Adopt AFRM mut_strategy!
+delete layer_name:classifier.1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+1 generation!
+
+Adopt AFRM mut_strategy!
+delete layer_name:classifier.4
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+2 generation!
+
+Adopt AFRM mut_strategy!
+No suitable ops for AFRM mutation!
+mut_result:No suitable ops for AFRM mutation!
+3 generation!
+
+Adopt AFRM mut_strategy!
+No suitable ops for AFRM mutation!
+mut_result:No suitable ops for AFRM mutation!
+4 generation!
+
+Adopt AFRM mut_strategy!
+No suitable ops for AFRM mutation!
+mut_result:No suitable ops for AFRM mutation!
+5 generation!
+
+Adopt AFRM mut_strategy!
+No suitable ops for AFRM mutation!
+mut_result:No suitable ops for AFRM mutation!
+6 generation!
+
+Adopt AFRM mut_strategy!
+No suitable ops for AFRM mutation!
+mut_result:No suitable ops for AFRM mutation!
+7 generation!
+
+Adopt AFRM mut_strategy!
+No suitable ops for AFRM mutation!
+mut_result:No suitable ops for AFRM mutation!
+8 generation!
+
+Adopt AFRM mut_strategy!
+No suitable ops for AFRM mutation!
+mut_result:No suitable ops for AFRM mutation!
+9 generation!
+
+Adopt AFRM mut_strategy!
+No suitable ops for AFRM mutation!
+mut_result:No suitable ops for AFRM mutation!
+10 generation!
+

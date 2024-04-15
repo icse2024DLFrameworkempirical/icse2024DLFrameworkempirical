@@ -1,0 +1,350 @@
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.13.bn2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+1 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.9.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+2 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.9.bn3
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+3 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.15.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+4 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer1.1.bn2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+5 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer1.2.bn3
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+6 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer4.1.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+7 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.3.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+8 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.16.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+9 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.4.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+10 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.6.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+11 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.7.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+12 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.9.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+13 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer1.1.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+14 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.12.bn3
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+15 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer2.3.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+16 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.1.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+17 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.20.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+18 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.11.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+19 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer2.0.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+20 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer4.2.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+21 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.19.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+22 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.17.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+23 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.13.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+24 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.7.bn2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+25 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.18.bn3
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+26 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.21.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+27 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer2.0.bn2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+28 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer2.3.bn2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+29 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer2.2.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+30 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.11.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+31 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.10.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+32 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer1.0.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+33 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.6.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+34 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer1.1.bn3
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+35 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.10.bn3
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+36 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.8.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+37 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer1.0.bn3
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+38 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer4.1.bn2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+39 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.4.bn2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+40 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.22.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+41 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.13.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+42 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.20.bn3
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+43 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.2.bn2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+44 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.0.bn3
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+45 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.17.bn2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+46 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.16.bn3
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+47 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer4.2.bn2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+48 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer3.2.conv2
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+49 generation!
+
+Adopt LD mut_strategy!
+delete layer_name:resnet.layer1.2.bn1
+candidate_in_mutlayers_indice:-1
+adopt DeleteCell EmptyCell
+mut_result:True
+50 generation!
+

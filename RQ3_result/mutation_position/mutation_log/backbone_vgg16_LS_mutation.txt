@@ -1,0 +1,240 @@
+Adopt LS mut_strategy!
+switch layer1:layers.8
+switch layer2:layers.9
+mut_result:True
+1 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.36
+switch layer2:layers.35
+mut_result:True
+2 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.39
+switch layer2:layers.38
+mut_result:True
+3 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.39
+switch layer2:layers.38
+mut_result:True
+4 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.8
+switch layer2:layers.9
+mut_result:True
+5 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.25
+switch layer2:layers.26
+mut_result:True
+6 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.35
+switch layer2:layers.36
+mut_result:True
+7 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.38
+switch layer2:layers.39
+mut_result:True
+8 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.28
+switch layer2:layers.29
+mut_result:True
+9 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.36
+switch layer2:layers.35
+mut_result:True
+10 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.39
+switch layer2:layers.38
+mut_result:True
+11 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.11
+switch layer2:layers.12
+mut_result:True
+12 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.11
+switch layer2:layers.12
+mut_result:True
+13 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.42
+switch layer2:layers.41
+mut_result:True
+14 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.8
+switch layer2:layers.9
+mut_result:True
+15 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.31
+switch layer2:layers.32
+mut_result:True
+16 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.18
+switch layer2:layers.19
+mut_result:True
+17 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.39
+switch layer2:layers.38
+mut_result:True
+18 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.5
+switch layer2:layers.4
+mut_result:True
+19 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.16
+switch layer2:layers.15
+mut_result:True
+20 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.18
+switch layer2:layers.19
+mut_result:True
+21 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.9
+switch layer2:layers.8
+mut_result:True
+22 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.26
+switch layer2:layers.25
+mut_result:True
+23 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.16
+switch layer2:layers.15
+mut_result:True
+24 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.38
+switch layer2:layers.39
+mut_result:True
+25 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.16
+switch layer2:layers.15
+mut_result:True
+26 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.26
+switch layer2:layers.25
+mut_result:True
+27 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.21
+switch layer2:layers.22
+mut_result:True
+28 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.32
+switch layer2:layers.31
+mut_result:True
+29 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.9
+switch layer2:layers.8
+mut_result:True
+30 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.5
+switch layer2:layers.4
+mut_result:True
+31 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.31
+switch layer2:layers.32
+mut_result:True
+32 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.12
+switch layer2:layers.11
+mut_result:True
+33 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.28
+switch layer2:layers.29
+mut_result:True
+34 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.15
+switch layer2:layers.16
+mut_result:True
+35 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.11
+switch layer2:layers.12
+mut_result:True
+36 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.4
+switch layer2:layers.5
+mut_result:True
+37 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.25
+switch layer2:layers.26
+mut_result:True
+38 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.8
+switch layer2:layers.9
+mut_result:True
+39 generation!
+
+Adopt LS mut_strategy!
+switch layer1:layers.16
+switch layer2:layers.15
+mut_result:True
+40 generation!
+

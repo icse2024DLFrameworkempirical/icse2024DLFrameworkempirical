@@ -1,0 +1,51 @@
+mut_types,mut_layer_name,mut_result
+LD,aspp.aspp1.aspp_conv.1,True
+LD,aspp.aspp2.aspp_conv.1,True
+LD,aspp.aspp3.aspp_conv.1,True
+LD,aspp.bn1,True
+LD,aspp.aspp_pooling.conv.1,True
+LD,aspp.aspp4.aspp_conv.1,True
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for
+LD,no,LD No suitable ops for

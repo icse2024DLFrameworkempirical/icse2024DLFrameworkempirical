@@ -1,0 +1,101 @@
+mut_types,mut_layer_name,mut_result
+LS,no,no suitable layer
+RA,inc.double_conv.1,True
+NS,up4.up,True
+AFRM,down2.maxpool_conv.1.double_conv.3,True
+WS,down4.maxpool_conv.1.double_conv.0,True
+LS,no,no suitable layer
+NEB,down2.maxpool_conv.1.double_conv.2,True
+NAI,down4.maxpool_conv.1.double_conv.2,True
+NAI,outc.conv,True
+AFRM,down4.maxpool_conv.1.double_conv.3,True
+NS,up2.conv.double_conv.0,True
+PM,"[2, 512, 66, 66]",True
+WS,up3.conv.double_conv.2,True
+WS,up2.conv.double_conv.2,True
+PM,"[2, 2, 388, 388]",True
+NAI,up4.up,True
+LS,no,no suitable layer
+SM,down3.maxpool_conv.0,True
+PM,"[2, 256, 138, 138]",True
+NAI,up2.conv.double_conv.2,True
+WS,up3.conv.double_conv.0,True
+LS,no,no suitable layer
+NAI,up3.up,True
+DM,up3.conv.double_conv.1,True
+SM,no,SM set layers failure
+NAI,up3.conv.double_conv.2,True
+NS,up4.conv.double_conv.2,True
+DM,up4.conv.double_conv.3,True
+RA,up4.conv.double_conv.1,True
+LA,up1.relu,True
+LC,down2.maxpool_conv.1.double_conv.1,True
+LA,inc.double_conv.1,True
+NS,up2.up,True
+LA,up1.conv.double_conv.1,True
+NS,up3.conv.double_conv.0,True
+GF,up3.relu,True
+NAI,down2.maxpool_conv.1.double_conv.2,True
+PM,no,Parameter Miss
+LS,no,no suitable layer
+PM,"[2, 1024, 28, 28]",True
+NAI,down2.maxpool_conv.1.double_conv.2,True
+SM,up4.conv.double_conv.3,True
+NS,outc.conv,True
+NAI,down2.maxpool_conv.1.double_conv.2,True
+GF,down1.maxpool_conv.1.double_conv.1,True
+LC,up1.conv.double_conv.3,True
+RA,down3.maxpool_conv.1.double_conv.1,True
+WS,down2.maxpool_conv.1.double_conv.2,True
+AFRM,up2.conv.double_conv.1,True
+SM,up3.conv.double_conv.3,True
+AFRM,up3.relu,True
+NEB,down2.maxpool_conv.1.double_conv.2,True
+NEB,down2.maxpool_conv.1.double_conv.2,True
+RA,down1.maxpool_conv.1.double_conv.3,True
+DM,no,DM Create illegal layer
+NEB,down2.maxpool_conv.1.double_conv.2,True
+GF,up1.up,True
+PM,no,Parameter Miss
+LS,no,no suitable layer
+LA,no,LA Create illegal layer
+NS,up1.conv.double_conv.0,True
+NAI,up1.conv.double_conv.2,True
+WS,down2.maxpool_conv.1.double_conv.2,True
+PM,"[2, 128, 198, 198]",True
+RA,up4.relu,True
+NS,up3.conv.double_conv.2,True
+LA,up1.relu,True
+DM,down1.maxpool_conv.1.double_conv.1,True
+AFRM,down3.maxpool_conv.1.double_conv.3,True
+LC,down4.maxpool_conv.1.double_conv.1,True
+AFRM,inc.double_conv.3,True
+LC,up2.relu,True
+WS,no,no suitable layer
+PM,no,Parameter Miss
+PM,no,Parameter Miss
+NEB,down2.maxpool_conv.1.double_conv.2,True
+LS,no,no suitable layer
+PM,no,Parameter Miss
+NS,up4.conv.double_conv.0,True
+RA,up4.relu,True
+NS,up2.conv.double_conv.0,True
+WS,no,no suitable layer
+LC,up2.conv.double_conv.3,True
+AFRM,down3.maxpool_conv.1.double_conv.1,True
+NAI,down3.maxpool_conv.1.double_conv.2,True
+NAI,up1.relu,True
+NEB,down2.maxpool_conv.1.double_conv.2,True
+NAI,up3.conv.double_conv.2,True
+GF,down3.maxpool_conv.0,True
+LC,up4.conv.double_conv.1,True
+AFRM,down1.maxpool_conv.1.double_conv.3,True
+LA,up2.relu,True
+AFRM,no,AFRM No suitable ops for
+RA,up4.relu,True
+NEB,down2.maxpool_conv.1.double_conv.2,True
+GF,up4.conv.double_conv.3,True
+NEB,down2.maxpool_conv.1.double_conv.2,True
+LA,no,LA Create illegal layer
+LA,up2.relu,True
+PM,no,Parameter Miss
